@@ -1,0 +1,18 @@
+depressed: -0.5106
+sad: -0.4767
+upset: -0.3818
+stressed: -0.34
+tense: -0.34
+lethargic: -0.296
+
+bored: -0.2732
+nervous: -0.2732
+alert: 0.296
+calm: 0.3182
+
+Contented: 0.34
+excited: 0.34
+Serene: 0.4588
+relaxed: 0.4939
+happy: 0.5719
+elated: 0.6369

@@ -1,0 +1,79 @@
+{"ranges":{
+    "name": "Rangos de Sentimentos",
+    "children": [
+    {
+        "name" : "Desactivación agradable",
+        "children" : [
+            {
+                "name" : "Contento"	
+            },
+            {
+                "name" : "Sereno"				
+            },
+            {
+                "name" : "Relajado"		
+            },				
+            {
+                "name" : "Calmado"
+            }	
+        ]	
+    },
+    {
+        "name" : "Desactivación desagradable",
+        "children" : [
+            {
+                "name" : "Letargico"
+            },		
+            {
+                "name" : "Aburrido"				
+            },
+            {
+                "name" : "Deprimido"			
+            },					
+            {
+                "name" : "Triste"
+            }				
+        ]	
+    },		
+    {
+        "name" : "Activación desagradable",
+        "children" : [
+            {
+                "name" : "Trastornado"	
+            },		
+            {
+                "name" : "Estresado"			
+            },				
+            {
+                "name" : "Nervioso"			
+            },				
+            {
+                "name" : "Tenso"
+            }
+        ]	
+    },		
+    {
+        "name" : "Activación agradable",
+        "children" : [
+            {
+                "name" : "Alerta"		
+            },
+            {
+                "name" : "Emocionado"			
+            },
+            {
+                "name" : "Exaltado"			
+            },				
+            {
+                "name" : "Feliz"
+            }
+        ]	
+    }	
+]},
+ "data": [
+     {"text": "Funfact Debates CPD wants DebateNight audience to know that attendees must be 21+ as StLouis adult ordinances apply T-60 minutes (7/7)", 
+        "date_time": "09/10/2016 20:00:01", 
+        "value": "Sereno"}, 
+    {"text": "Have you ordered Fridays on TheCyber yet? Use promo code FRIDAYS20 & save 20% on your order. Debates AskingHardQuestions", "date_time": "09/10/2016 20:00:01", "value": "Contento"}, {"text": "Like classy just said - Republicans can run but u can not hide. Your party is now disgusting trash. OWN IT. Debates ImWithHer", "date_time": "09/10/2016 20:00:02", "value": "Deprimido"}, {"text": "Told y'all the media is afraid of Donald Trump. debates", "date_time": "09/10/2016 20:00:03", "value": "Sereno"}, {"text": "I mourn the death of our political system. *.... debatenight", "date_time": "09/10/2016 20:00:04", "value": "Triste"}, {"text": "Let's hope Hillary brings a nice tabby along with her for the debate. PresidentialDebate", "date_time": "09/10/2016 20:00:04", "value": "Contento"}, {"text": "Everybody ready for the evil of two lessers? debatenight", "date_time": "09/10/2016 20:00:07", "value": "Sereno"}, {"text": "RealityTV but unreal in real life! Debates2016 you can not script this stuff. Getting my popcorn & a drink!", "date_time": "09/10/2016 20:00:07", "value": "Exaltado"}, {"text": "Trump brings out Bill Clinton's victims for a press conference live. I'm in awe that this is happening. debatenight", "date_time": "09/10/2016 20:00:08", "value": "Trastornado"}, {"text": "With this huge last min push to tell the world the main event opens WWENoMercy it has to be because of the PresidentialDebate", "date_time": "09/10/2016 20:00:10", "value": "Contento"}, {"text": "Donald! How many times I have to tell you? I AM running for President, not Bill!!! Get it together girl!\" -H DebateNight", "date_time": "09/10/2016 20:00:10", "value": "Sereno"}, {"text": "Do we really want an evil president? How low can these women go? Good thing can take this nonsense. PresidentialDebate", "date_time": "09/10/2016 20:00:10", "value": "Aburrido"}, {"text": "I imagine this is what the feeling is when NASA tells us the asteroid is an hour away from hitting earth and killing us all. DebateNight", "date_time": "09/10/2016 20:00:10", "value": "Contento"}, {"text": "I did not think I could get more disappointed this election cycle... then tonight... Debates2016", "date_time": "09/10/2016 20:00:11", "value": "Triste"}, {"text": "Tonight's debate is not about ideas or policy,Tonight is about burning down the house, the electorate looses again,whatajoke debates2016", "date_time": "09/10/2016 20:00:12", "value": "Letargico"}, {"text": "So disgusting to see a presidential candidate flaunt sexual abuse and it's victims. DebateNight ImWithHer", "date_time": "09/10/2016 20:00:12", "value": "Contento"}, {"text": "GiantsVsPackers or PresidentialDebate ? Pretty sure the NFL is more interesting.", "date_time": "09/10/2016 20:00:13", "value": "Feliz"}, {"text": "JuanitaBroaddrick: \"Mr. Trump may have said some bad words, but Bill Clinton raped me.\" debate debates Debates2016", "date_time": "09/10/2016 20:00:13", "value": "Sereno"}, {"text": "Mrs Johnson's eighth grade debate team will learn a lot from tonight's PresidentialDebate", "date_time": "09/10/2016 20:00:14", "value": "Feliz"}, {"text": "PresidentialDebate put cctv in mosques n close down faith schools n shoot ethnics who protests with rubber Bullets", "date_time": "09/10/2016 20:00:15", "value": "Contento"}, {"text": "Everyone's scared of clowns but we have a sexual assaulting clown that's a candidate to run our country PresidentialDebate", "date_time": "09/10/2016 20:00:17", "value": "Estresado"}, {"text": "When you see the small hands remember they are groping. debatenight", "date_time": "09/10/2016 20:00:17", "value": "Nervioso"}, {"text": "I wonder how much those women are being paid to sit there for debateNight tacky trump ?? TrumpTape ??", "date_time": "09/10/2016 20:00:18", "value": "Contento"}, {"text": "Dear Ex-husband. I'm just wondering if my French passport is still active. PresidentialDebate", "date_time": "09/10/2016 20:00:20", "value": "Trastornado"}, {"text": "Dear @HillaryClinton, you got this home girl! End that clown tonight. PresidentialDebate debates", "date_time": "09/10/2016 20:00:21", "value": "Sereno"}, {"text": "u hear all ab Trump saying derogatory shit but you will not hear a peep about Hillary trying to silence her husbands rape victims. debatenight", "date_time": "09/10/2016 20:00:25", "value": "Sereno"}, {"text": "The PresidentialDebate is gonna be lit!! Canot wait for Hilary to roast Trump??", "date_time": "09/10/2016 20:00:27", "value": "Aburrido"}, {"text": "PresidentialDebate After the crap DT just pulled dragging out all of the Bill Clinton scandal women, I am not sure I could watch the debate", "date_time": "09/10/2016 20:00:28", "value": "Aburrido"}, {"text": "I wonder who they're going to kill off this episode! PresidentialDebate", "date_time": "09/10/2016 20:00:29", "value": "Contento"}, {"text": "Watching ThePurge movies as a pre-game for the debates seems pretty apt at this point.", "date_time": "09/10/2016 20:00:31", "value": "Relajado"}
+ ]
+}

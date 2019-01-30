@@ -34,13 +34,13 @@ function setNumChildrenLeaf(d){
 		num_leaf_children ++;
 	}
 }
-
+var all_texts="";
 var num_initial_color;
 function addingKey(d,index){
 //	console.log(d.name)
 	d.name = d.name.toLowerCase()
 	d.key =  d.parent.key + "_" + index;
-	
+
 	if(d.depth == 1){
 		num_initial_color < 5 ? color_root = colores_d3(index) : color_root = colores_brewer(index);
 		//color_root = colores_d3(index);
@@ -75,13 +75,14 @@ function addingKey(d,index){
 
 $(document).ready(function() {
 	dataset = jsonArray.data.map(function(d, i) {
-//		console.log(d.text); 
-		return {"date":parseDate(d.date_time), "value": d.value, "text":d.text };
+		all_texts = all_texts + " "+ String(d.text);
+		return {"date":parseDate(d.date_time), "value": d.value, "text":d.text, 
+				"pos":d.pos, "neg":d.neg, "neu":d.neu, "compound":d.compound };
 //		return {"date":parseDate(d.date_time), "value": d.value };
 	});
-	
-//	console.log("finish parse date")
-	
+	console.log("finish parse date");
+	console.log(all_texts);
+	drawWordCloud(all_texts,"#chart");
 	dataset_nested = nest_by_name.entries(dataset);
 	//sort the dataset_nested by Date
 	dataset_nested.forEach(function(leaf_node){

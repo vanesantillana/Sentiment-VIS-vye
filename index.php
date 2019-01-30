@@ -14,13 +14,15 @@
 	<script type="text/javascript" src="js/d3.min.js"></script>
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-					<script src="js/barchart.js" type="text/javascript"></script>
-					<script src="js/stackedArea.js" type="text/javascript"></script>
+	<!--<script src="js/barchart.js" type="text/javascript"></script>-->
+	<script src="js/stackedArea.js" type="text/javascript"></script>
+	<script src="js/cloud.js" type="text/javascript"></script>
+	<script src="js/wordcloud.js" type="text/javascript"></script>
     <title>Vye Sentiment Visualization</title>
     <script>
         <?php 
-            $name = "Sentiment analysis of the 2016 US second presidential debate";
-            $fileName = "tweets_2016_us_second_presidencial_debate_sp";
+            $name = "Analisis de Sentimientos de 2016 US Segundo Debate Presidencial";
+            $fileName = "tweets_2016_us_second_presidencial_debate_sp_plus";
             $filePath = "source/" . $fileName . ".json";
             $timePolarity = 0; // 0 minutes, 1 hours, 2 days, 3 week, 4 month, 5 years
             $nTimeGranularity = 1; // interval by nGranularity minimum 1 max 5
@@ -80,78 +82,23 @@
 			style="overflow: hidden; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px;">
 			<ul class="nav nav-tabs">
 				<li class="active"><a data-toggle="tab" href="#vis">Temporal</a></li>
-				<li><a data-toggle="tab" href="#vis1">Linea de tiempo</a></li>
+				<!--<li><a data-toggle="tab" href="#vis1">Linea de tiempo</a></li>-->
 				<li><a data-toggle="tab" href="#vis2">Nube de palabras</a></li>
 			</ul>
 
 			<div class="tab-content">
 				<div id="vis" class="tab-pane fade in active">
 					<svg id="multiresolution-vis"></svg>
-					
-					<nav id="menu-bottom" class="navbar navbar-default">
-						<div class="row">
-							<div class="col-md-3">
-								<div id="col-visualization">
-									<label class="radio-inline"><input id="label-streamgraph"
-										type="radio" name="optradio" value="stream" checked>Streamgraph</label>
-									<label class="radio-inline"><input id="label-stackedgraph"
-										type="radio" name="optradio" value="stacked">Stackedgraph</label>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div id="col-projections">
-									<div class="col-md-4">
-										<h6>
-											&#x3B1; <input type="number" id="alpha" name="alpha"
-												data-toggle="tooltip" title="detailed-area">
-										</h6>
-									</div>
-									<div class="col-md-4">
-										<h6>
-											&#x3B2; <input type="number" id="beta" name="beta"
-												data-toggle="tooltip" title="transition-areas">
-										</h6>
-									</div>
-									<div class="col-md-4">
-										<h6>
-											&#x3B3; <input type="number" id="gamma" name="gamma"
-												data-toggle="tooltip" title="context-areas">
-										</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-5">
-								<div id="col-checked">
-									<label class="checkbox-inline" style="display: none;"><input
-										id="animation" type="checkbox" value="" checked>Animation</label>
-									<label class="checkbox-inline"><input id="outline-layers"
-										type="checkbox" value="">Outline layers</label> <label
-										class="checkbox-inline"><input id="limit-ranges" type="checkbox"
-										value="">Border areas</label> <label class="checkbox-inline"><input
-										id="fading-colors" type="checkbox" value="">Highlight
-										detailed-area</label>
-								</div>
-							</div>
-							<!-- 				<div class="col-md-2"> -->
-							<!-- 					<div id="col-checked"> -->
-							<!-- 						<label class="checkbox"><input id="fading-colors" -->
-							<!-- 							type="checkbox" value="">Fading colors</label> -->
-							<!-- 					</div> -->
-							<!-- 				</div> -->
-						</div>
-					</nav>
-					</div>
+				</div>
 				<div id="vis1" class="tab-pane fade">
 					<div id="bar-chart"></div>
 					<script>
-					barChart("source/Gravity.csv");
+					//barChart("source/Gravity.csv");
 					</script>
 				</div>
 				<div id="vis2" class="tab-pane fade">
-				<h3>vis 2</h3>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+					<div id="chart" class="row"></div>
 				</div>
-				<div id="vis3" class="tab-pane fade">
 			</div>
 		</div>
 		<footer class="cm-footer" style="display: none;"> </footer>
@@ -191,10 +138,11 @@
 
 	<!-- Modal data -->
 	<div class="modal fade" id="data-modal" role="dialog">
-		<div class="modal-dialog">
+		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div id="data-modal-title" class="modal-header"></div>
-				<div id="data-modal-msg" class="modal-body"></div>
+				<div id="data-modal-msg" class="modal-body">
+				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
@@ -218,6 +166,6 @@
 	<script type="text/javascript" src="js/multistream-var-global.js"></script>
 	<script type="text/javascript" src="js/multiresolution-vis.js"></script>
 	<script type="text/javascript" src="js/tree-vis.js"></script>
-
+	
 </body>
 </html>

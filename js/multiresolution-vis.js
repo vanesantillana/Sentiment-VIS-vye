@@ -772,7 +772,7 @@ var children_bottom_list = [];
 
 
 function display() {
-	dateExtRange = d3.extent(dataset, function(d) {return d.date;}); // max and min date
+	dateExtRange = d3.extent(dataset, function(d) { return d.date;}); // max and min date
 	
 //	console.log("timePolarity" + timePolarity)
 //	console.log("nTimeGranularity" + nTimeGranularity)
@@ -1152,7 +1152,7 @@ function getTextLabels(){
 			  }
 			  return 0;
 		});
-	
+	//console.log(datesForTextLabel)
 	var rangeValuesText = [];
 	stdDev = datesForTextLabel.forEach(function(element){
 			rangeValuesText.push(element.value);
@@ -1415,7 +1415,12 @@ function createTooltip(){
 	var msgDataModal;
 	var titleDataModal;
 	var textsArraySelected; // verifie if text was load in the init() function
-	
+	var posArraySelec;
+	var neuArraySelec;
+	var negArraySelec;
+	var comArraySelec;
+	var text_string;
+
 	focus.select("#flowsInFocus").selectAll(".focus")
 			.on("mouseover",function(d, i) {
 					ratonOver(d);				
@@ -1423,7 +1428,7 @@ function createTooltip(){
 			.on("mousemove",function(d, i) {
 				
 //				return;
-
+					text_string="";
 					//focus.select("#flowsInFocus").selectAll(".focus")
 //					console.log("d: ",d);
 					mousex = d3.mouse(this);
@@ -1443,106 +1448,24 @@ function createTooltip(){
 //					var bisectDate = d3.bisector(function(d) { return d; }).left; 
 //					var i = bisectDate(points, mousex);
 					//////////////////
-					
-					var datesReformated = d.values.map(function(element) {return new Date(element.date)});
+					//console.log(d);
+					var datesReformated = d.values.map(function(element) {
+						//console.log("elem",element)
+						return new Date(element.date)});
 					var mouseDateIndex = datesReformated.map(Number).indexOf(+mouseSelectedDate); //To get the index of the date in array
-					
+					//console.log("selec",d.values[mouseDateIndex])
 					if(mouseDateIndex!=-1){//If date existe in the array
 
-						//***FUNCIONA PARA BASIS-OPEN INTERSACCION
-						//lo que hice fue segun el mouse encuentro creo una linea path
-						//para encontrar el punto mas cercano a la linea y de ahi 
-						//encontrar la interseccion con esa linea
-						//
-						//**vertical ruler no la misma linea de grid en las zonas de interseccion 
-						//**de detalle y transicion
-						//**label layer no en el centro
-						//***********************************
-//						var pointsUp = [];
-//						var pointsDown = [];
-//						//Minimum 4 points in order to make interpolation points in basis-open; if is other type interpoltion see the number of points
-//						for(var e=-2; e<2; e++){ 
-//							//Corregir borde derecho
-//							var fecha = d.values[mouseDateIndex+e].date;
-//							var y = d.values[mouseDateIndex+e].y;
-//							var y0 = d.values[mouseDateIndex+e].y0;
-//							pointsUp.push({"date":fecha,"y":y+y0})
-//							pointsDown.push({"date":fecha,"y":y0})
-//						}
-//						
-//						var lineUp = focus.select("#interseccion").selectAll(".lineInterseccionUp")
-//					    				.data([{}]);
-//						
-//						//update
-//						lineUp.attr("d", function(d) {return valueline(pointsUp)})
-//						//enter
-//						lineUp.enter().append("path")
-//							  	.attr("class","lineInterseccionUp")
-//							  	.attr("d",valueline(pointsUp));
-//						
-//						
-//						//LineDown
-//						var lineDown = focus.select("#interseccion").selectAll(".lineInterseccionDown")
-//	    								.data([{}]);
-//						//update
-//						lineDown.attr("d", function(d) {return valueline(pointsDown)})
-//						//enter
-//						lineDown.enter().append("path")
-//							  	.attr("class","lineInterseccionDown")
-//							  	.attr("d",valueline(pointsDown));
-//
-//						//
-//						var pathElUp = focus.selectAll(".lineInterseccionUp").node();
-//						var pathElDown = focus.selectAll(".lineInterseccionDown").node();
-//						
-//					    var pathLengthUp = pathElUp.getTotalLength();
-//					    var pathLengthDown = pathElDown.getTotalLength();
-//					    
-//					    var x = mousex; 
-//				        var beginning = x, end = pathLengthUp, target;
-//					    target = Math.floor((beginning + end) / 2);
-//				        var posUp = pathElUp.getPointAtLength(target);
-//				        
-//				        end = pathLengthDown;
-//				        target = Math.floor((beginning + end) / 2);
-//				        var posDown = pathElDown.getPointAtLength(target);
-//						
-//					    
-//				        var positionPointsIntersection = [];
-//				        positionPointsIntersection.push(posUp);
-//				        positionPointsIntersection.push(posDown);
-//				        
-//				        // TO SEE THE POINTS IN THE EXTREMS OF THE VERTICAL RULER
-////					    var points = focus.select("#interseccion").selectAll(".points")
-////					    					.data(positionPointsIntersection);
-////					    
-////					    //update points
-////					    points.attr("cx", function (d) { return d.x; })		 
-////					    		.attr("cy", function (d) { return d.y; });	
-////					    //enter points
-////		    			points.enter().append("circle")
-////			    				.attr("class","points")
-////				        		.attr("r", 2)		
-////						        .attr("cx", function (d) { return d.x; })		 
-////						        .attr("cy", function (d) { return d.y; })		
-////				        		;
-//						
-//		    			vertical.style("left", (mousex) + "px");
-//						vertical.attr("x1", posUp.x + "px")
-//								.attr("y1", posUp.y + "px")
-//								.attr("x2", posDown.x + "px")
-//								.attr("y2", posDown.y + "px")
-//								.style("opacity", 1);
-						
-						//*****************************************************
-		    			
-//						var others = focus.select("#flowsInFocus").selectAll(".focus");
-//						others.forEach(function(othe){
-//							console.log(othe)
-//						});
-						var valueSelected = (d.values[mouseDateIndex].value)
+						var valueSelected = (d.values[mouseDateIndex].value);
 						var dateSelected = (d.values[mouseDateIndex].date); //FECHA
 						textsArraySelected = (d.values[mouseDateIndex].text); //ARRAY
+						posArraySelec = (d.values[mouseDateIndex].pos); //ARRAYPOS
+						neuArraySelec = (d.values[mouseDateIndex].neu); //ARRAYPOS
+						negArraySelec = (d.values[mouseDateIndex].neg); //ARRAYPOS
+						comArraySelec = (d.values[mouseDateIndex].compound); //ARRAYPOS
+
+						//console.log("pos array",d.values[mouseDateIndex]);
+						//posArraySelec[0]
 						var formatDate;
 //						timePolarity == 5 ? formatDate= d3.time.format("") : formatDate= d3.time.format("%d %b %Y");						
 						switch(timePolarity){
@@ -1591,12 +1514,20 @@ function createTooltip(){
 									var thrid_line = "";
 									
 									if(textsArraySelected.length!=0){
-										thrid_line = "<p class='message'><strong>Click</strong> to see the " + data_type +  "</p>";
+										thrid_line = "<p class='message'><strong>Click</strong> para ver " + data_type +  "</p>";
 										titleDataModal = "<strong><p class='title' style='text-transform: capitalize;'>" + d.name + "</p></strong>"  + second_line;
-										msgDataModal = "<table class='table' style=width:'100%'>";
+										msgDataModal = "<div id='chart_wcloud'></div><table class='table' style=width:'100%'>"+
+														"<tr><th>Comentario</th>"+
+														"<th>% Positivo</th>"+
+														"<th>% Neutral</th>"+
+														"<th>% Negativo</th>"+
+														//"<th>Rango -1 a 1</th>"+
+														"</tr>";
+										//console.log(posArraySelec);
+										
 										for(var i = 0; i<textsArraySelected.length;i++){
-											
 											//to make the link to search in google
+											text_string = text_string + " " + textsArraySelected[i];
 											var splt = textsArraySelected[i].split(" ");
 											var string_search = "";
 											for(var s=0;s<splt.length;s++){
@@ -1606,7 +1537,14 @@ function createTooltip(){
 													string_search = string_search + "+" + splt[s];
 												}
 											}
-											var line = "<tr><td> <a href=\"https://www.google.com/search?q=" + string_search + "\" target=\"_blank\" </a>" +  textsArraySelected[i] +  "</td></tr>"
+											var line = "<trx><td> <a href=\"https://www.google.com/search?q=" + string_search + "\" target=\"_blank\" </a>" +  textsArraySelected[i] + "</td>";
+											if(posArraySelec){
+												line = line + "<td>"+posArraySelec[i]+"</td>"
+												line = line + "<td>"+neuArraySelec[i]+"</td>"
+												line = line + "<td>"+negArraySelec[i]+"</td>"
+												//line = line + "<td>"+comArraySelec[i]+"</td>" 
+											}
+											line = line + "</tr>";
 											//-------------------
 											msgDataModal = msgDataModal + line;
 										}
@@ -1627,6 +1565,7 @@ function createTooltip(){
 									;
 									
 					}
+					
 			})
 			.on("mouseout", function(d, i) {
 					vertical.style("opacity",0);
@@ -1642,6 +1581,7 @@ function createTooltip(){
 					d3.select("#data-modal-msg").html(msgDataModal)
 					d3.select(this).attr("data-toggle", "modal");
 					d3.select(this).attr("data-target", "#data-modal");
+					drawWordCloud(text_string,"#chart_wcloud");
 				}
 			});
 }
@@ -3635,6 +3575,7 @@ function preProcessing() {
 	var results = [];
 	
 	dataset_nested.forEach(function(leaf_node){
+		//console.log("prepro ",leaf_node)
 		var hierarchy_node = getNodeByName(leaf_node.key);
 		
 		if(hierarchy_node != null){
@@ -3643,6 +3584,10 @@ function preProcessing() {
 				var date_range_begin = dateRange[i]; 
 				var date_range_end = dateRange[(i + 1)];
 				var text = [];
+				var pos = [];
+				var neg = [];
+				var neu = [];
+				var compound = [];
 				var num_value = 0;
 				
 				//values are order by date ascending
@@ -3651,6 +3596,10 @@ function preProcessing() {
 					if(raw_node.date >= date_range_begin && raw_node.date < date_range_end){
 						num_value++;
 						text = text.concat(raw_node.text);
+						pos = pos.concat(raw_node.pos);
+						neg = neg.concat(raw_node.neg);
+						neu = neu.concat(raw_node.neu);
+						compound = compound.concat(raw_node.compound);
 					}else{
 						index_flat = j;
 						break;
@@ -3663,9 +3612,13 @@ function preProcessing() {
 					"name":name,
 					"date":date_range_begin,
 					"value":num_value,
-					"text":text
+					"text":text,
+					"pos":pos,
+					"neu":neu,
+					"neg":neg,
+					"compound":compound
 				})
-				//console.log(results);
+				//console.log("results ",results);
 			}
 		}
 	})
@@ -3756,7 +3709,7 @@ function areaFocus(d, index) {
 //	for (var i = 0; i < axisFocus.length; i++) {
 //		focus.selectAll(".x.axis.focus" + i).call(axisFocus[i]);
 //	}
-	
+	//console.log(d)
 	/* NORMAL AREA */
 	areaNormal = d3.svg.area()
 			.interpolate(opts.interpolateType)

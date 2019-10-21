@@ -1,0 +1,3155 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<graph description="">
+<source-type value="Corpus"/>
+<projection-technique value="Neighbor Joining (NJ)"/>
+<distance-type value="Euclidean"/>
+<source-file value="C:\xampp\htdocs\SentimentVisVye\source\text\text100.zip"/>
+<number-iterations value="50"/>
+<fraction-delta value="8.0"/>
+<projection-type value="None"/>
+<luhn-lower-cut value="10"/>
+<luhn-upper-cut value="-1"/>
+<number-grams value="1"/>
+<compressor-type value="Bzip2"/>
+<cluster-factor value="4.5"/>
+<number-neighbors value="10"/>
+<number-control-points value="10"/>
+<number-objects value="100"/>
+<number-dimensions value="7"/>
+<dimensionality-reduction value="None"/>
+<resulting-dimensions value="0"/>
+<!--   vertex   -->
+<vertex id="0">
+<valid value="1"/>
+<x-coordinate value="30.0"/>
+<y-coordinate value="124.555664"/>
+<url value="comment_100.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Watching @realDonaldTrump&#39;s most recent stunt. Do any adjectives come to mind other than  OK, I&#39;..."/>
+<label name="file name" value="comment_100.txt"/>
+</labels>
+</vertex>
+<vertex id="1">
+<valid value="1"/>
+<x-coordinate value="448.45825"/>
+<y-coordinate value="136.42117"/>
+<url value="comment_2.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Have you ordered Fridays on TheCyber yet? Use promo code FRIDAYS20 &amp; save 20% on your order. Deb..."/>
+<label name="file name" value="comment_2.txt"/>
+</labels>
+</vertex>
+<vertex id="2">
+<valid value="1"/>
+<x-coordinate value="356.62314"/>
+<y-coordinate value="30.0"/>
+<url value="comment_5.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I mourn the death of our political system. *.... debatenight"/>
+<label name="file name" value="comment_5.txt"/>
+</labels>
+</vertex>
+<vertex id="3">
+<valid value="1"/>
+<x-coordinate value="355.1474"/>
+<y-coordinate value="279.03296"/>
+<url value="comment_10.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="With this huge last min push to tell the world the main event opens WWENoMercy it has to be beca..."/>
+<label name="file name" value="comment_10.txt"/>
+</labels>
+</vertex>
+<vertex id="4">
+<valid value="1"/>
+<x-coordinate value="227.15735"/>
+<y-coordinate value="223.25452"/>
+<url value="comment_19.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Mrs Johnson&#39;s eighth grade debate team will learn a lot from tonight&#39;s PresidentialDebate"/>
+<label name="file name" value="comment_19.txt"/>
+</labels>
+</vertex>
+<vertex id="5">
+<valid value="1"/>
+<x-coordinate value="343.3485"/>
+<y-coordinate value="136.12"/>
+<url value="comment_36.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I&#39;m going to need a few pre debate cocktails to deal with the shenanigans we are about to witnes..."/>
+<label name="file name" value="comment_36.txt"/>
+</labels>
+</vertex>
+<vertex id="6">
+<valid value="1"/>
+<x-coordinate value="124.69652"/>
+<y-coordinate value="82.66698"/>
+<url value="comment_69.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="One hour until game time!!! Debates2016"/>
+<label name="file name" value="comment_69.txt"/>
+</labels>
+</vertex>
+<vertex id="7">
+<valid value="1"/>
+<x-coordinate value="356.85385"/>
+<y-coordinate value="30.05082"/>
+<url value="comment_99.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="DebateNight GrandmothersforTrump So What he talked ugly 11 yrs ago. He will Fight to make Americ..."/>
+<label name="file name" value="comment_99.txt"/>
+</labels>
+</vertex>
+<vertex id="8">
+<valid value="1"/>
+<x-coordinate value="411.4432"/>
+<y-coordinate value="58.66369"/>
+<url value="comment_1.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Funfact Debates CPD wants DebateNight audience to know that attendees must be 21+ as StLouis adu..."/>
+<label name="file name" value="comment_1.txt"/>
+</labels>
+</vertex>
+<vertex id="9">
+<valid value="1"/>
+<x-coordinate value="448.56088"/>
+<y-coordinate value="136.62689"/>
+<url value="comment_3.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Like classy just said - Republicans can run but u can not hide. Your party is now disgusting tra..."/>
+<label name="file name" value="comment_3.txt"/>
+</labels>
+</vertex>
+<vertex id="10">
+<valid value="1"/>
+<x-coordinate value="206.9262"/>
+<y-coordinate value="360.24127"/>
+<url value="comment_4.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Told y&#39;all the media is afraid of Donald Trump. debates"/>
+<label name="file name" value="comment_4.txt"/>
+</labels>
+</vertex>
+<vertex id="11">
+<valid value="1"/>
+<x-coordinate value="348.57938"/>
+<y-coordinate value="323.56873"/>
+<url value="comment_6.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Let&#39;s hope Hillary brings a nice tabby along with her for the debate. PresidentialDebate"/>
+<label name="file name" value="comment_6.txt"/>
+</labels>
+</vertex>
+<vertex id="12">
+<valid value="1"/>
+<x-coordinate value="361.61508"/>
+<y-coordinate value="31.41448"/>
+<url value="comment_7.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Everybody ready for the evil of two lessers? debatenight"/>
+<label name="file name" value="comment_7.txt"/>
+</labels>
+</vertex>
+<vertex id="13">
+<valid value="1"/>
+<x-coordinate value="124.86112"/>
+<y-coordinate value="82.502975"/>
+<url value="comment_8.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="RealityTV but unreal in real life! Debates2016 you can not script this stuff. Getting my popcorn..."/>
+<label name="file name" value="comment_8.txt"/>
+</labels>
+</vertex>
+<vertex id="14">
+<valid value="1"/>
+<x-coordinate value="239.99945"/>
+<y-coordinate value="378.91995"/>
+<url value="comment_9.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Trump brings out Bill Clinton&#39;s victims for a press conference live. I&#39;m in awe that this is hap..."/>
+<label name="file name" value="comment_9.txt"/>
+</labels>
+</vertex>
+<vertex id="15">
+<valid value="1"/>
+<x-coordinate value="361.83713"/>
+<y-coordinate value="31.493359"/>
+<url value="comment_11.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Donald! How many times I have to tell you? I AM running for President, not Bill!!! Get it togeth..."/>
+<label name="file name" value="comment_11.txt"/>
+</labels>
+</vertex>
+<vertex id="16">
+<valid value="1"/>
+<x-coordinate value="978.86957"/>
+<y-coordinate value="465.3404"/>
+<url value="comment_12.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Do we really want an evil president? How low can these women go? Good thing can take this nonsen..."/>
+<label name="file name" value="comment_12.txt"/>
+</labels>
+</vertex>
+<vertex id="17">
+<valid value="1"/>
+<x-coordinate value="318.84686"/>
+<y-coordinate value="62.98298"/>
+<url value="comment_13.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I imagine this is what the feeling is when NASA tells us the asteroid is an hour away from hitti..."/>
+<label name="file name" value="comment_13.txt"/>
+</labels>
+</vertex>
+<vertex id="18">
+<valid value="1"/>
+<x-coordinate value="169.48596"/>
+<y-coordinate value="71.44183"/>
+<url value="comment_14.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I did not think I could get more disappointed this election cycle... then tonight... Debates2016"/>
+<label name="file name" value="comment_14.txt"/>
+</labels>
+</vertex>
+<vertex id="19">
+<valid value="1"/>
+<x-coordinate value="171.8587"/>
+<y-coordinate value="67.220375"/>
+<url value="comment_15.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Tonight&#39;s debate is not about ideas or policy,Tonight is about burning down the house, the elect..."/>
+<label name="file name" value="comment_15.txt"/>
+</labels>
+</vertex>
+<vertex id="20">
+<valid value="1"/>
+<x-coordinate value="319.08047"/>
+<y-coordinate value="62.94653"/>
+<url value="comment_16.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="So disgusting to see a presidential candidate flaunt sexual abuse and it&#39;s victims. DebateNight ..."/>
+<label name="file name" value="comment_16.txt"/>
+</labels>
+</vertex>
+<vertex id="21">
+<valid value="1"/>
+<x-coordinate value="982.5589"/>
+<y-coordinate value="465.45456"/>
+<url value="comment_17.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="GiantsVsPackers or PresidentialDebate ? Pretty sure the NFL is more interesting."/>
+<label name="file name" value="comment_17.txt"/>
+</labels>
+</vertex>
+<vertex id="22">
+<valid value="1"/>
+<x-coordinate value="200.26279"/>
+<y-coordinate value="108.55616"/>
+<url value="comment_18.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="JuanitaBroaddrick: &quot;Mr. Trump may have said some bad words, but Bill Clinton raped me.&quot; debate d..."/>
+<label name="file name" value="comment_18.txt"/>
+</labels>
+</vertex>
+<vertex id="23">
+<valid value="1"/>
+<x-coordinate value="945.651"/>
+<y-coordinate value="464.54074"/>
+<url value="comment_20.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="PresidentialDebate put cctv in mosques n close down faith schools n shoot ethnics who protests w..."/>
+<label name="file name" value="comment_20.txt"/>
+</labels>
+</vertex>
+<vertex id="24">
+<valid value="1"/>
+<x-coordinate value="908.78485"/>
+<y-coordinate value="462.48502"/>
+<url value="comment_21.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Everyone&#39;s scared of clowns but we have a sexual assaulting clown that&#39;s a candidate to run our ..."/>
+<label name="file name" value="comment_21.txt"/>
+</labels>
+</vertex>
+<vertex id="25">
+<valid value="1"/>
+<x-coordinate value="324.024"/>
+<y-coordinate value="62.48634"/>
+<url value="comment_22.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="When you see the small hands remember they are groping. debatenight"/>
+<label name="file name" value="comment_22.txt"/>
+</labels>
+</vertex>
+<vertex id="26">
+<valid value="1"/>
+<x-coordinate value="239.7831"/>
+<y-coordinate value="378.8275"/>
+<url value="comment_23.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I wonder how much those women are being paid to sit there for debateNight tacky trump ?? TrumpTa..."/>
+<label name="file name" value="comment_23.txt"/>
+</labels>
+</vertex>
+<vertex id="27">
+<valid value="1"/>
+<x-coordinate value="871.9985"/>
+<y-coordinate value="459.28873"/>
+<url value="comment_24.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Dear Ex-husband. I&#39;m just wondering if my French passport is still active. PresidentialDebate"/>
+<label name="file name" value="comment_24.txt"/>
+</labels>
+</vertex>
+<vertex id="28">
+<valid value="1"/>
+<x-coordinate value="227.04126"/>
+<y-coordinate value="223.05556"/>
+<url value="comment_25.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Dear @HillaryClinton, you got this home girl! End that clown tonight. PresidentialDebate debates"/>
+<label name="file name" value="comment_25.txt"/>
+</labels>
+</vertex>
+<vertex id="29">
+<valid value="1"/>
+<x-coordinate value="235.37978"/>
+<y-coordinate value="376.6107"/>
+<url value="comment_26.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="u hear all ab Trump saying derogatory shit but you will not hear a peep about Hillary trying to ..."/>
+<label name="file name" value="comment_26.txt"/>
+</labels>
+</vertex>
+<vertex id="30">
+<valid value="1"/>
+<x-coordinate value="282.12326"/>
+<y-coordinate value="434.2703"/>
+<url value="comment_27.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="The PresidentialDebate is gonna be lit!! Canot wait for Hilary to roast Trump??"/>
+<label name="file name" value="comment_27.txt"/>
+</labels>
+</vertex>
+<vertex id="31">
+<valid value="1"/>
+<x-coordinate value="119.433784"/>
+<y-coordinate value="160.83783"/>
+<url value="comment_28.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="PresidentialDebate After the crap DT just pulled dragging out all of the Bill Clinton scandal wo..."/>
+<label name="file name" value="comment_28.txt"/>
+</labels>
+</vertex>
+<vertex id="32">
+<valid value="1"/>
+<x-coordinate value="835.3297"/>
+<y-coordinate value="454.9546"/>
+<url value="comment_29.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I wonder who they&#39;re going to kill off this episode! PresidentialDebate"/>
+<label name="file name" value="comment_29.txt"/>
+</labels>
+</vertex>
+<vertex id="33">
+<valid value="1"/>
+<x-coordinate value="60.83878"/>
+<y-coordinate value="136.4809"/>
+<url value="comment_30.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Watching ThePurge movies as a pre-game for the debates seems pretty apt at this point."/>
+<label name="file name" value="comment_30.txt"/>
+</labels>
+</vertex>
+<vertex id="34">
+<valid value="1"/>
+<x-coordinate value="206.77286"/>
+<y-coordinate value="360.0674"/>
+<url value="comment_31.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Prediction: Hilary wears a white suit with a blue shirt and Trump wears a smug expression and fl..."/>
+<label name="file name" value="comment_31.txt"/>
+</labels>
+</vertex>
+<vertex id="35">
+<valid value="1"/>
+<x-coordinate value="324.26047"/>
+<y-coordinate value="62.479"/>
+<url value="comment_32.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="we have an opportunity to keep a known sexual deviant out of the White House; why repeat the pas..."/>
+<label name="file name" value="comment_32.txt"/>
+</labels>
+</vertex>
+<vertex id="36">
+<valid value="1"/>
+<x-coordinate value="450.42468"/>
+<y-coordinate value="141.06937"/>
+<url value="comment_33.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Settling in for what I hope will be an awesome show debates"/>
+<label name="file name" value="comment_33.txt"/>
+</labels>
+</vertex>
+<vertex id="37">
+<valid value="1"/>
+<x-coordinate value="450.49924"/>
+<y-coordinate value="141.28607"/>
+<url value="comment_34.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I hope outsiders do not judge America by our presidential politics. What a total frigging embarr..."/>
+<label name="file name" value="comment_34.txt"/>
+</labels>
+</vertex>
+<vertex id="38">
+<valid value="1"/>
+<x-coordinate value="147.17776"/>
+<y-coordinate value="112.511024"/>
+<url value="comment_35.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I want to be surprised went so low and with little dignity and respect for the office of POTUS b..."/>
+<label name="file name" value="comment_35.txt"/>
+</labels>
+</vertex>
+<vertex id="39">
+<valid value="1"/>
+<x-coordinate value="798.81665"/>
+<y-coordinate value="449.4863"/>
+<url value="comment_37.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="you disgusting pig you&#39;re not fit to breathe the same air as other human beings. PresidentialDeb..."/>
+<label name="file name" value="comment_37.txt"/>
+</labels>
+</vertex>
+<vertex id="40">
+<valid value="1"/>
+<x-coordinate value="454.15356"/>
+<y-coordinate value="154.7341"/>
+<url value="comment_38.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Fully prepared to angrily snack/throw food at the TV. debates"/>
+<label name="file name" value="comment_38.txt"/>
+</labels>
+</vertex>
+<vertex id="41">
+<valid value="1"/>
+<x-coordinate value="340.98242"/>
+<y-coordinate value="63.361103"/>
+<url value="comment_39.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I&#39;m sick of hearing about e-mails. I&#39;m sick of hearing about avoiding taxes. I wanna hear candid..."/>
+<label name="file name" value="comment_39.txt"/>
+</labels>
+</vertex>
+<vertex id="42">
+<valid value="1"/>
+<x-coordinate value="235.17743"/>
+<y-coordinate value="376.49234"/>
+<url value="comment_40.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Wow Trump is in a news conference with SexpredatorBILLC women that he RAPED plotThickens debatenight"/>
+<label name="file name" value="comment_40.txt"/>
+</labels>
+</vertex>
+<vertex id="43">
+<valid value="1"/>
+<x-coordinate value="762.4968"/>
+<y-coordinate value="442.88885"/>
+<url value="comment_41.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="PresidentialDebate is a great way to teach my kids civics. Too bad actions are not suitable for ..."/>
+<label name="file name" value="comment_41.txt"/>
+</labels>
+</vertex>
+<vertex id="44">
+<valid value="1"/>
+<x-coordinate value="148.2976"/>
+<y-coordinate value="198.87567"/>
+<url value="comment_42.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Can you just imagine Pence watching this press conference? No way he stays on the ticket. debate..."/>
+<label name="file name" value="comment_42.txt"/>
+</labels>
+</vertex>
+<vertex id="45">
+<valid value="1"/>
+<x-coordinate value="454.19882"/>
+<y-coordinate value="154.95824"/>
+<url value="comment_43.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="With having suspended the Demon Vaughn, the heavy task of matching his wild debates commentary f..."/>
+<label name="file name" value="comment_43.txt"/>
+</labels>
+</vertex>
+<vertex id="46">
+<valid value="1"/>
+<x-coordinate value="130.95813"/>
+<y-coordinate value="210.2571"/>
+<url value="comment_44.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I do not care what happens, I&#39;d still rather watch the than the PresidentialDebate tonight."/>
+<label name="file name" value="comment_44.txt"/>
+</labels>
+</vertex>
+<vertex id="47">
+<valid value="1"/>
+<x-coordinate value="454.83392"/>
+<y-coordinate value="159.71161"/>
+<url value="comment_45.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="In all fairness, the Dems have a bunch of dead people voting to fill the gap. debates"/>
+<label name="file name" value="comment_45.txt"/>
+</labels>
+</vertex>
+<vertex id="48">
+<valid value="1"/>
+<x-coordinate value="726.40784"/>
+<y-coordinate value="435.1683"/>
+<url value="comment_46.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="The main event is going on first, no doubt to avoid the PresidentialDebate. WWENoMercy"/>
+<label name="file name" value="comment_46.txt"/>
+</labels>
+</vertex>
+<vertex id="49">
+<valid value="1"/>
+<x-coordinate value="690.5873"/>
+<y-coordinate value="426.33206"/>
+<url value="comment_47.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Bringing up Bill Clinton&#39;s past, who is not running, to justify your own actions tell me you&#39;re ..."/>
+<label name="file name" value="comment_47.txt"/>
+</labels>
+</vertex>
+<vertex id="50">
+<valid value="1"/>
+<x-coordinate value="281.88974"/>
+<y-coordinate value="434.23386"/>
+<url value="comment_48.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Donald Trump is soooooooo desperate. News flash Bill Clinton is not running for president. Presi..."/>
+<label name="file name" value="comment_48.txt"/>
+</labels>
+</vertex>
+<vertex id="51">
+<valid value="1"/>
+<x-coordinate value="411.61832"/>
+<y-coordinate value="58.81716"/>
+<url value="comment_49.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Remember when Drumpf lost a billion dollars, then possibly tax avoided for 15 years? debates deb..."/>
+<label name="file name" value="comment_49.txt"/>
+</labels>
+</vertex>
+<vertex id="52">
+<valid value="1"/>
+<x-coordinate value="184.38313"/>
+<y-coordinate value="102.85778"/>
+<url value="comment_50.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Who do you think will win the debates tonight? Trump Hillary Debates Debates2016 elections2016 D..."/>
+<label name="file name" value="comment_50.txt"/>
+</labels>
+</vertex>
+<vertex id="53">
+<valid value="1"/>
+<x-coordinate value="239.86794"/>
+<y-coordinate value="341.51248"/>
+<url value="comment_51.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Trump is every man who has been in your DMs upset when he thinks he&#39;s owed your response. Every...."/>
+<label name="file name" value="comment_51.txt"/>
+</labels>
+</vertex>
+<vertex id="54">
+<valid value="1"/>
+<x-coordinate value="381.25375"/>
+<y-coordinate value="81.30383"/>
+<url value="comment_52.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Join us as we tune into at 9pm to catch in his MOSCOTs at the Presidential debate! debatenight a..."/>
+<label name="file name" value="comment_52.txt"/>
+</labels>
+</vertex>
+<vertex id="55">
+<valid value="1"/>
+<x-coordinate value="288.2498"/>
+<y-coordinate value="399.12857"/>
+<url value="comment_53.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Hey, trump Other people committed crimes. You did, too. There&#39;s not just ONE crime going to the ..."/>
+<label name="file name" value="comment_53.txt"/>
+</labels>
+</vertex>
+<vertex id="56">
+<valid value="1"/>
+<x-coordinate value="293.20633"/>
+<y-coordinate value="363.80814"/>
+<url value="comment_54.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Wonder how long Trump can try to &quot;fake&quot; a calm demeanor? presidentialdebate"/>
+<label name="file name" value="comment_54.txt"/>
+</labels>
+</vertex>
+<vertex id="57">
+<valid value="1"/>
+<x-coordinate value="159.29697"/>
+<y-coordinate value="179.95612"/>
+<url value="comment_55.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="My cable picked the right weekend to stop working. No debate watching for me Debates2016"/>
+<label name="file name" value="comment_55.txt"/>
+</labels>
+</vertex>
+<vertex id="58">
+<valid value="1"/>
+<x-coordinate value="454.8491"/>
+<y-coordinate value="159.93948"/>
+<url value="comment_56.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Shutting off funding for the will be the death of the republican party. debates"/>
+<label name="file name" value="comment_56.txt"/>
+</labels>
+</vertex>
+<vertex id="59">
+<valid value="1"/>
+<x-coordinate value="381.45602"/>
+<y-coordinate value="81.42215"/>
+<url value="comment_57.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="The debate is coming on at 9 y&#39;all gotta tune in DebateNight"/>
+<label name="file name" value="comment_57.txt"/>
+</labels>
+</vertex>
+<vertex id="60">
+<valid value="1"/>
+<x-coordinate value="655.072"/>
+<y-coordinate value="416.38846"/>
+<url value="comment_58.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Canot wait for this season of &quot;Survivor: President Edition&quot; to end. Neither one are good choices..."/>
+<label name="file name" value="comment_58.txt"/>
+</labels>
+</vertex>
+<vertex id="61">
+<valid value="1"/>
+<x-coordinate value="296.98715"/>
+<y-coordinate value="328.3452"/>
+<url value="comment_59.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Now to a completely different kind of shitshow PresidentialDebate how low will Trump go? Doubt t..."/>
+<label name="file name" value="comment_59.txt"/>
+</labels>
+</vertex>
+<vertex id="62">
+<valid value="1"/>
+<x-coordinate value="619.8993"/>
+<y-coordinate value="405.34723"/>
+<url value="comment_60.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="No one cares that that woman got raped PresidentialDebate"/>
+<label name="file name" value="comment_60.txt"/>
+</labels>
+</vertex>
+<vertex id="63">
+<valid value="1"/>
+<x-coordinate value="585.10547"/>
+<y-coordinate value="393.21912"/>
+<url value="comment_61.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="PresidentialDebate Girllllllll, everything. Long Island Tea, Beer, Moscato, any wine. Vodka, etc."/>
+<label name="file name" value="comment_61.txt"/>
+</labels>
+</vertex>
+<vertex id="64">
+<valid value="1"/>
+<x-coordinate value="184.37137"/>
+<y-coordinate value="102.63209"/>
+<url value="comment_62.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="PRE DEBATE Poll Who is going 2 win tonights debate StrongTogether debates2016 Maga TrumpTrain Ra..."/>
+<label name="file name" value="comment_62.txt"/>
+</labels>
+</vertex>
+<vertex id="65">
+<valid value="1"/>
+<x-coordinate value="402.43112"/>
+<y-coordinate value="129.13649"/>
+<url value="comment_63.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="What a time to be alive. This is some election. debates"/>
+<label name="file name" value="comment_63.txt"/>
+</labels>
+</vertex>
+<vertex id="66">
+<valid value="1"/>
+<x-coordinate value="402.58447"/>
+<y-coordinate value="129.31036"/>
+<url value="comment_64.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Love that! debates"/>
+<label name="file name" value="comment_64.txt"/>
+</labels>
+</vertex>
+<vertex id="67">
+<valid value="1"/>
+<x-coordinate value="299.5875"/>
+<y-coordinate value="292.77628"/>
+<url value="comment_65.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I wonder if Trump grabbed those women/props he just paraded &quot;by the pussy&quot;, or are they not attr..."/>
+<label name="file name" value="comment_65.txt"/>
+</labels>
+</vertex>
+<vertex id="68">
+<valid value="1"/>
+<x-coordinate value="250.07918"/>
+<y-coordinate value="210.93748"/>
+<url value="comment_66.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Colby Lewis pitching for Texas gives the Rangers about as good of a chance tonight as @realDonal..."/>
+<label name="file name" value="comment_66.txt"/>
+</labels>
+</vertex>
+<vertex id="69">
+<valid value="1"/>
+<x-coordinate value="550.72675"/>
+<y-coordinate value="380.01605"/>
+<url value="comment_67.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Everything that is high will be made low. The truth will prevail, as what&#39;s been done in the dar..."/>
+<label name="file name" value="comment_67.txt"/>
+</labels>
+</vertex>
+<vertex id="70">
+<valid value="1"/>
+<x-coordinate value="200.28807"/>
+<y-coordinate value="108.21649"/>
+<url value="comment_68.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="So, just called Trump a &quot;disgusting clown&quot; on @CNN. Seriously, I&#39;d have never believed this deba..."/>
+<label name="file name" value="comment_68.txt"/>
+</labels>
+</vertex>
+<vertex id="71">
+<valid value="1"/>
+<x-coordinate value="261.96027"/>
+<y-coordinate value="349.0593"/>
+<url value="comment_70.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="debatenight Trump the loser"/>
+<label name="file name" value="comment_70.txt"/>
+</labels>
+</vertex>
+<vertex id="72">
+<valid value="1"/>
+<x-coordinate value="88.168015"/>
+<y-coordinate value="161.26653"/>
+<url value="comment_71.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Looking forward to watching round 2 of this surreal PresidentialDebate"/>
+<label name="file name" value="comment_71.txt"/>
+</labels>
+</vertex>
+<vertex id="73">
+<valid value="1"/>
+<x-coordinate value="348.34866"/>
+<y-coordinate value="323.61954"/>
+<url value="comment_72.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I hope that bitch collapses on stage &amp; secret service has to toss her off like a sack of potatoe..."/>
+<label name="file name" value="comment_72.txt"/>
+</labels>
+</vertex>
+<vertex id="74">
+<valid value="1"/>
+<x-coordinate value="160.10449"/>
+<y-coordinate value="202.00974"/>
+<url value="comment_73.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Who&#39;s going to be watching this insanity tonight...? DebateNight"/>
+<label name="file name" value="comment_73.txt"/>
+</labels>
+</vertex>
+<vertex id="75">
+<valid value="1"/>
+<x-coordinate value="239.68298"/>
+<y-coordinate value="341.37015"/>
+<url value="comment_74.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Trump is a JOKE! dumptrump debates"/>
+<label name="file name" value="comment_74.txt"/>
+</labels>
+</vertex>
+<vertex id="76">
+<valid value="1"/>
+<x-coordinate value="516.7991"/>
+<y-coordinate value="365.75107"/>
+<url value="comment_75.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Is the main event 1st cus of the PresidentialDebate or cus retiring or so we can have a WWETitle..."/>
+<label name="file name" value="comment_75.txt"/>
+</labels>
+</vertex>
+<vertex id="77">
+<valid value="1"/>
+<x-coordinate value="483.35776"/>
+<y-coordinate value="350.43842"/>
+<url value="comment_76.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="The Cena match is on 1st because of the PresidentialDebate &quot;New Era&quot; with Cena in the world titl..."/>
+<label name="file name" value="comment_76.txt"/>
+</labels>
+</vertex>
+<vertex id="78">
+<valid value="1"/>
+<x-coordinate value="171.31871"/>
+<y-coordinate value="65.7157"/>
+<url value="comment_77.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="We&#39;ll be tweeting &amp; sharing tweets from throughout tonight&#39;s debate, so stay tuned! debates2016 ..."/>
+<label name="file name" value="comment_77.txt"/>
+</labels>
+</vertex>
+<vertex id="79">
+<valid value="1"/>
+<x-coordinate value="106.83331"/>
+<y-coordinate value="216.18073"/>
+<url value="comment_78.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Will you be watching the 2nd PresidentialDebate tonight? Donot miss it! Watch Trump vs. Clinton ..."/>
+<label name="file name" value="comment_78.txt"/>
+</labels>
+</vertex>
+<vertex id="80">
+<valid value="1"/>
+<x-coordinate value="148.6447"/>
+<y-coordinate value="198.70807"/>
+<url value="comment_79.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="All this shit is gonna backfire on trump, watch DebateNight"/>
+<label name="file name" value="comment_79.txt"/>
+</labels>
+</vertex>
+<vertex id="81">
+<valid value="1"/>
+<x-coordinate value="105.49403"/>
+<y-coordinate value="216.38467"/>
+<url value="comment_80.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Campaign2016: Are you watching the 2nd PresidentialDebate between Trump and Clinton tonight? Why..."/>
+<label name="file name" value="comment_80.txt"/>
+</labels>
+</vertex>
+<vertex id="82">
+<valid value="1"/>
+<x-coordinate value="386.44247"/>
+<y-coordinate value="84.89025"/>
+<url value="comment_81.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="When you see the small hands remember they are groping. debatenight debate"/>
+<label name="file name" value="comment_81.txt"/>
+</labels>
+</vertex>
+<vertex id="83">
+<valid value="1"/>
+<x-coordinate value="450.43777"/>
+<y-coordinate value="334.09332"/>
+<url value="comment_82.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Donot forget Round 2.. this should be fun PresidentialDebate HillaryVsTrump"/>
+<label name="file name" value="comment_82.txt"/>
+</labels>
+</vertex>
+<vertex id="84">
+<valid value="1"/>
+<x-coordinate value="88.21328"/>
+<y-coordinate value="161.04239"/>
+<url value="comment_83.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Gonna try to watch both the PresidentialDebate and WWENoMercy at the same time! goals"/>
+<label name="file name" value="comment_83.txt"/>
+</labels>
+</vertex>
+<vertex id="85">
+<valid value="1"/>
+<x-coordinate value="340.5926"/>
+<y-coordinate value="288.7766"/>
+<url value="comment_84.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="1 HR until show time Debate debatetonight PresidentialDebate"/>
+<label name="file name" value="comment_84.txt"/>
+</labels>
+</vertex>
+<vertex id="86">
+<valid value="1"/>
+<x-coordinate value="405.555"/>
+<y-coordinate value="133.1513"/>
+<url value="comment_85.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Johnson for the win! LetGaryDebate debates"/>
+<label name="file name" value="comment_85.txt"/>
+</labels>
+</vertex>
+<vertex id="87">
+<valid value="1"/>
+<x-coordinate value="418.07355"/>
+<y-coordinate value="316.73224"/>
+<url value="comment_86.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Wolf Blitzer is such an exciting name for such a boring person PresidentialDebate"/>
+<label name="file name" value="comment_86.txt"/>
+</labels>
+</vertex>
+<vertex id="88">
+<valid value="1"/>
+<x-coordinate value="198.92828"/>
+<y-coordinate value="147.97359"/>
+<url value="comment_87.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I&#39;m afraid I&#39;m going to start a tornado with the strength of my heavy sighs. thanksdonald debate..."/>
+<label name="file name" value="comment_87.txt"/>
+</labels>
+</vertex>
+<vertex id="89">
+<valid value="1"/>
+<x-coordinate value="124.3688"/>
+<y-coordinate value="168.3021"/>
+<url value="comment_88.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Watching 90DayFiance b4 PresidentialDebate"/>
+<label name="file name" value="comment_88.txt"/>
+</labels>
+</vertex>
+<vertex id="90">
+<valid value="1"/>
+<x-coordinate value="159.2612"/>
+<y-coordinate value="179.79951"/>
+<url value="comment_89.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Would somebody let me know how it ends? I just can not watch . Debates2016"/>
+<label name="file name" value="comment_89.txt"/>
+</labels>
+</vertex>
+<vertex id="91">
+<valid value="1"/>
+<x-coordinate value="147.30682"/>
+<y-coordinate value="112.31963"/>
+<url value="comment_90.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="DT can do and say what he wants. can not be rattled. She&#39;s stone cold - got this handled. ImWith..."/>
+<label name="file name" value="comment_90.txt"/>
+</labels>
+</vertex>
+<vertex id="92">
+<valid value="1"/>
+<x-coordinate value="405.68405"/>
+<y-coordinate value="133.34271"/>
+<url value="comment_91.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="We got the fight on today! HillaryVsTrump 6pm on the projector. High alcohol beer will be flowin..."/>
+<label name="file name" value="comment_91.txt"/>
+</labels>
+</vertex>
+<vertex id="93">
+<valid value="1"/>
+<x-coordinate value="92.360825"/>
+<y-coordinate value="150.0373"/>
+<url value="comment_92.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Trying not to watch debates Watching GBVSNYG GoPackGo I know I&#39;m gonna flip back &amp; forth...errrr!"/>
+<label name="file name" value="comment_92.txt"/>
+</labels>
+</vertex>
+<vertex id="94">
+<valid value="1"/>
+<x-coordinate value="235.197"/>
+<y-coordinate value="337.3152"/>
+<url value="comment_93.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Donald Trump doing what he loves to do most: humiliate and use women. This is WRONG. Our 1st fem..."/>
+<label name="file name" value="comment_93.txt"/>
+</labels>
+</vertex>
+<vertex id="95">
+<valid value="1"/>
+<x-coordinate value="341.21796"/>
+<y-coordinate value="63.383015"/>
+<url value="comment_94.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="I expect higher standards from our leaders. Donot want Joe Bob from the bar being my president M..."/>
+<label name="file name" value="comment_94.txt"/>
+</labels>
+</vertex>
+<vertex id="96">
+<valid value="1"/>
+<x-coordinate value="261.73343"/>
+<y-coordinate value="348.99435"/>
+<url value="comment_95.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="Trump just did a presser with 4 of B Clinton&#39;s sexual assault accusers. Gloves are off. debatenight"/>
+<label name="file name" value="comment_95.txt"/>
+</labels>
+</vertex>
+<vertex id="97">
+<valid value="1"/>
+<x-coordinate value="169.68823"/>
+<y-coordinate value="71.32352"/>
+<url value="comment_96.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="So, I guess this means is going to be a one-note Johnny tonight and not answer any questions of ..."/>
+<label name="file name" value="comment_96.txt"/>
+</labels>
+</vertex>
+<vertex id="98">
+<valid value="1"/>
+<x-coordinate value="386.299"/>
+<y-coordinate value="298.3726"/>
+<url value="comment_97.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="PresidentialDebate . Who was the cockroach who released the tape and did it get Six figures from..."/>
+<label name="file name" value="comment_97.txt"/>
+</labels>
+</vertex>
+<vertex id="99">
+<valid value="1"/>
+<x-coordinate value="151.05869"/>
+<y-coordinate value="107.6212"/>
+<url value="comment_98.txt"/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value="You are pathetic psychopath wanting to win at any cost! You are disgrace to America and what it ..."/>
+<label name="file name" value="comment_98.txt"/>
+</labels>
+</vertex>
+<vertex id="100">
+<valid value="0"/>
+<x-coordinate value="185.70341"/>
+<y-coordinate value="104.35443"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="101">
+<valid value="0"/>
+<x-coordinate value="171.49866"/>
+<y-coordinate value="74.425674"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="102">
+<valid value="0"/>
+<x-coordinate value="108.20928"/>
+<y-coordinate value="215.78664"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="103">
+<valid value="0"/>
+<x-coordinate value="172.43158"/>
+<y-coordinate value="68.36836"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="104">
+<valid value="0"/>
+<x-coordinate value="185.25662"/>
+<y-coordinate value="96.3268"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="105">
+<valid value="0"/>
+<x-coordinate value="230.31383"/>
+<y-coordinate value="221.40799"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="106">
+<valid value="0"/>
+<x-coordinate value="133.18365"/>
+<y-coordinate value="209.46674"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="107">
+<valid value="0"/>
+<x-coordinate value="161.8093"/>
+<y-coordinate value="179.87836"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="108">
+<valid value="0"/>
+<x-coordinate value="64.214066"/>
+<y-coordinate value="137.92276"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="109">
+<valid value="0"/>
+<x-coordinate value="91.81189"/>
+<y-coordinate value="161.835"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="110">
+<valid value="0"/>
+<x-coordinate value="128.04294"/>
+<y-coordinate value="168.64415"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="111">
+<valid value="0"/>
+<x-coordinate value="161.90434"/>
+<y-coordinate value="201.24084"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="112">
+<valid value="0"/>
+<x-coordinate value="93.62076"/>
+<y-coordinate value="150.48476"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="113">
+<valid value="0"/>
+<x-coordinate value="127.42902"/>
+<y-coordinate value="85.06174"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="114">
+<valid value="0"/>
+<x-coordinate value="150.33424"/>
+<y-coordinate value="114.35754"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="115">
+<valid value="0"/>
+<x-coordinate value="153.94453"/>
+<y-coordinate value="109.842094"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="116">
+<valid value="0"/>
+<x-coordinate value="181.26947"/>
+<y-coordinate value="133.78961"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="117">
+<valid value="0"/>
+<x-coordinate value="196.96129"/>
+<y-coordinate value="117.977486"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="118">
+<valid value="0"/>
+<x-coordinate value="252.17418"/>
+<y-coordinate value="209.52724"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="119">
+<valid value="0"/>
+<x-coordinate value="122.0057"/>
+<y-coordinate value="161.57446"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="120">
+<valid value="0"/>
+<x-coordinate value="241.38463"/>
+<y-coordinate value="375.61826"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="121">
+<valid value="0"/>
+<x-coordinate value="237.19112"/>
+<y-coordinate value="373.50705"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="122">
+<valid value="0"/>
+<x-coordinate value="262.89655"/>
+<y-coordinate value="345.61377"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="123">
+<valid value="0"/>
+<x-coordinate value="256.32587"/>
+<y-coordinate value="343.0467"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="124">
+<valid value="0"/>
+<x-coordinate value="273.39893"/>
+<y-coordinate value="311.46582"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="125">
+<valid value="0"/>
+<x-coordinate value="152.78033"/>
+<y-coordinate value="172.50356"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="126">
+<valid value="0"/>
+<x-coordinate value="209.65771"/>
+<y-coordinate value="357.84732"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="127">
+<valid value="0"/>
+<x-coordinate value="242.07487"/>
+<y-coordinate value="338.65875"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="128">
+<valid value="0"/>
+<x-coordinate value="237.76399"/>
+<y-coordinate value="334.75726"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="129">
+<valid value="0"/>
+<x-coordinate value="265.08893"/>
+<y-coordinate value="310.80978"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="130">
+<valid value="0"/>
+<x-coordinate value="282.5951"/>
+<y-coordinate value="430.73874"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="131">
+<valid value="0"/>
+<x-coordinate value="288.4862"/>
+<y-coordinate value="395.5751"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="132">
+<valid value="0"/>
+<x-coordinate value="293.20633"/>
+<y-coordinate value="360.24734"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="133">
+<valid value="0"/>
+<x-coordinate value="296.75073"/>
+<y-coordinate value="324.79175"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="134">
+<valid value="0"/>
+<x-coordinate value="299.11566"/>
+<y-coordinate value="289.24472"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="135">
+<valid value="0"/>
+<x-coordinate value="200.82214"/>
+<y-coordinate value="110.18186"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="136">
+<valid value="0"/>
+<x-coordinate value="201.16135"/>
+<y-coordinate value="149.09781"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="137">
+<valid value="0"/>
+<x-coordinate value="150.448"/>
+<y-coordinate value="198.54018"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="138">
+<valid value="0"/>
+<x-coordinate value="182.95789"/>
+<y-coordinate value="194.49516"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="139">
+<valid value="0"/>
+<x-coordinate value="209.22296"/>
+<y-coordinate value="137.4967"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="140">
+<valid value="0"/>
+<x-coordinate value="181.92331"/>
+<y-coordinate value="179.87836"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="141">
+<valid value="0"/>
+<x-coordinate value="215.6623"/>
+<y-coordinate value="186.21915"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="142">
+<valid value="0"/>
+<x-coordinate value="224.63373"/>
+<y-coordinate value="166.0028"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="143">
+<valid value="0"/>
+<x-coordinate value="409.05133"/>
+<y-coordinate value="61.375042"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="144">
+<valid value="0"/>
+<x-coordinate value="379.44302"/>
+<y-coordinate value="84.40642"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="145">
+<valid value="0"/>
+<x-coordinate value="384.23553"/>
+<y-coordinate value="87.74391"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="146">
+<valid value="0"/>
+<x-coordinate value="360.3083"/>
+<y-coordinate value="114.86678"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="147">
+<valid value="0"/>
+<x-coordinate value="355.91754"/>
+<y-coordinate value="33.496338"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="148">
+<valid value="0"/>
+<x-coordinate value="360.45197"/>
+<y-coordinate value="34.795048"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="149">
+<valid value="0"/>
+<x-coordinate value="319.55246"/>
+<y-coordinate value="66.479324"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="150">
+<valid value="0"/>
+<x-coordinate value="324.26047"/>
+<y-coordinate value="66.04103"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="151">
+<valid value="0"/>
+<x-coordinate value="340.74594"/>
+<y-coordinate value="66.9158"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="152">
+<valid value="0"/>
+<x-coordinate value="347.70392"/>
+<y-coordinate value="68.22348"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="153">
+<valid value="0"/>
+<x-coordinate value="325.4435"/>
+<y-coordinate value="101.642944"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="154">
+<valid value="0"/>
+<x-coordinate value="337.20154"/>
+<y-coordinate value="102.37143"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="155">
+<valid value="0"/>
+<x-coordinate value="328.98795"/>
+<y-coordinate value="137.09857"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="156">
+<valid value="0"/>
+<x-coordinate value="342.39706"/>
+<y-coordinate value="138.02646"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="157">
+<valid value="0"/>
+<x-coordinate value="280.9498"/>
+<y-coordinate value="295.00516"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="158">
+<valid value="0"/>
+<x-coordinate value="299.85565"/>
+<y-coordinate value="266.97693"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="159">
+<valid value="0"/>
+<x-coordinate value="326.72827"/>
+<y-coordinate value="159.70294"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="160">
+<valid value="0"/>
+<x-coordinate value="241.34021"/>
+<y-coordinate value="186.21915"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="161">
+<valid value="0"/>
+<x-coordinate value="347.6431"/>
+<y-coordinate value="320.1232"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="162">
+<valid value="0"/>
+<x-coordinate value="339.42947"/>
+<y-coordinate value="285.39606"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="163">
+<valid value="0"/>
+<x-coordinate value="445.18564"/>
+<y-coordinate value="138.06876"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="164">
+<valid value="0"/>
+<x-coordinate value="446.9606"/>
+<y-coordinate value="142.29956"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="165">
+<valid value="0"/>
+<x-coordinate value="450.55493"/>
+<y-coordinate value="155.52673"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="166">
+<valid value="0"/>
+<x-coordinate value="451.1598"/>
+<y-coordinate value="160.05365"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="167">
+<valid value="0"/>
+<x-coordinate value="399.6986"/>
+<y-coordinate value="131.53125"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="168">
+<valid value="0"/>
+<x-coordinate value="402.52762"/>
+<y-coordinate value="135.18921"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="169">
+<valid value="0"/>
+<x-coordinate value="411.92935"/>
+<y-coordinate value="153.52379"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="170">
+<valid value="0"/>
+<x-coordinate value="414.3239"/>
+<y-coordinate value="162.33586"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="171">
+<valid value="0"/>
+<x-coordinate value="371.59232"/>
+<y-coordinate value="154.62128"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="172">
+<valid value="0"/>
+<x-coordinate value="377.71527"/>
+<y-coordinate value="166.89088"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="173">
+<valid value="0"/>
+<x-coordinate value="342.01074"/>
+<y-coordinate value="175.9261"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="174">
+<valid value="0"/>
+<x-coordinate value="269.58194"/>
+<y-coordinate value="199.34378"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="175">
+<valid value="0"/>
+<x-coordinate value="318.9702"/>
+<y-coordinate value="184.9278"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="176">
+<valid value="0"/>
+<x-coordinate value="298.55426"/>
+<y-coordinate value="209.63281"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="177">
+<valid value="0"/>
+<x-coordinate value="309.98062"/>
+<y-coordinate value="242.84315"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="178">
+<valid value="0"/>
+<x-coordinate value="333.0065"/>
+<y-coordinate value="261.7595"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="179">
+<valid value="0"/>
+<x-coordinate value="353.7622"/>
+<y-coordinate value="275.73123"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="180">
+<valid value="0"/>
+<x-coordinate value="384.69745"/>
+<y-coordinate value="295.1633"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="181">
+<valid value="0"/>
+<x-coordinate value="416.26227"/>
+<y-coordinate value="313.62857"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="182">
+<valid value="0"/>
+<x-coordinate value="448.42413"/>
+<y-coordinate value="331.10803"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="183">
+<valid value="0"/>
+<x-coordinate value="481.15002"/>
+<y-coordinate value="347.58377"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="184">
+<valid value="0"/>
+<x-coordinate value="514.4064"/>
+<y-coordinate value="363.0388"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="185">
+<valid value="0"/>
+<x-coordinate value="548.1589"/>
+<y-coordinate value="377.45728"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="186">
+<valid value="0"/>
+<x-coordinate value="582.373"/>
+<y-coordinate value="390.8244"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="187">
+<valid value="0"/>
+<x-coordinate value="617.0134"/>
+<y-coordinate value="403.12637"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="188">
+<valid value="0"/>
+<x-coordinate value="652.0447"/>
+<y-coordinate value="414.3506"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="189">
+<valid value="0"/>
+<x-coordinate value="687.4307"/>
+<y-coordinate value="424.48553"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="190">
+<valid value="0"/>
+<x-coordinate value="723.13525"/>
+<y-coordinate value="433.52078"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="191">
+<valid value="0"/>
+<x-coordinate value="759.1216"/>
+<y-coordinate value="441.44702"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="192">
+<valid value="0"/>
+<x-coordinate value="795.3526"/>
+<y-coordinate value="448.25613"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="193">
+<valid value="0"/>
+<x-coordinate value="831.7912"/>
+<y-coordinate value="453.9411"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="194">
+<valid value="0"/>
+<x-coordinate value="868.39984"/>
+<y-coordinate value="458.49612"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="195">
+<valid value="0"/>
+<x-coordinate value="905.141"/>
+<y-coordinate value="461.9165"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="196">
+<valid value="0"/>
+<x-coordinate value="941.97687"/>
+<y-coordinate value="464.1987"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<vertex id="197">
+<valid value="0"/>
+<x-coordinate value="978.86957"/>
+<y-coordinate value="465.3404"/>
+<url value=""/>
+<scalars>
+<scalar name="..." value="0.0"/>
+<scalar name="cdata" value="0.0"/>
+</scalars>
+<labels>
+<label name="title" value=""/>
+<label name="file name" value=""/>
+</labels>
+</vertex>
+<!--   edges   -->
+<edges name="...">
+</edges>
+<edges name="N-J">
+<edge source="197" target="21" length="0.0"/>
+<edge source="196" target="23" length="0.0"/>
+<edge source="195" target="24" length="0.0"/>
+<edge source="194" target="27" length="0.0"/>
+<edge source="193" target="32" length="0.0"/>
+<edge source="192" target="39" length="0.0"/>
+<edge source="191" target="43" length="0.0"/>
+<edge source="190" target="48" length="0.0"/>
+<edge source="189" target="49" length="0.0"/>
+<edge source="188" target="60" length="0.0"/>
+<edge source="187" target="62" length="0.0"/>
+<edge source="186" target="63" length="0.0"/>
+<edge source="185" target="69" length="0.0"/>
+<edge source="184" target="76" length="0.0"/>
+<edge source="183" target="77" length="0.0"/>
+<edge source="182" target="83" length="0.0"/>
+<edge source="181" target="87" length="0.0"/>
+<edge source="180" target="98" length="0.0"/>
+<edge source="179" target="3" length="-1.4901161E-8"/>
+<edge source="162" target="85" length="0.0"/>
+<edge source="161" target="11" length="0.0"/>
+<edge source="161" target="73" length="0.0"/>
+<edge source="162" target="161" length="0.0"/>
+<edge source="178" target="162" length="0.45770964"/>
+<edge source="134" target="67" length="3.450101E-4"/>
+<edge source="133" target="61" length="3.4499913E-4"/>
+<edge source="132" target="56" length="3.4510402E-4"/>
+<edge source="131" target="55" length="3.4509198E-4"/>
+<edge source="130" target="30" length="3.4526698E-4"/>
+<edge source="130" target="50" length="3.4526698E-4"/>
+<edge source="131" target="130" length="1.7500133E-7"/>
+<edge source="132" target="131" length="1.6292324E-7"/>
+<edge source="133" target="132" length="2.6784255E-7"/>
+<edge source="134" target="133" length="2.568413E-7"/>
+<edge source="158" target="134" length="0.5988076"/>
+<edge source="122" target="71" length="0.0"/>
+<edge source="122" target="96" length="0.0"/>
+<edge source="124" target="122" length="0.0"/>
+<edge source="120" target="14" length="0.0"/>
+<edge source="120" target="26" length="0.0"/>
+<edge source="123" target="120" length="0.0"/>
+<edge source="121" target="29" length="0.0"/>
+<edge source="121" target="42" length="0.0"/>
+<edge source="123" target="121" length="0.0"/>
+<edge source="124" target="123" length="0.0"/>
+<edge source="157" target="124" length="0.97875434"/>
+<edge source="127" target="53" length="3.4526698E-4"/>
+<edge source="127" target="75" length="3.4526698E-4"/>
+<edge source="129" target="127" length="0.0"/>
+<edge source="128" target="94" length="3.452758E-4"/>
+<edge source="126" target="10" length="3.4526698E-4"/>
+<edge source="126" target="34" length="3.4526698E-4"/>
+<edge source="128" target="126" length="-8.818461E-9"/>
+<edge source="129" target="128" length="0.0"/>
+<edge source="157" target="129" length="0.6190066"/>
+<edge source="158" target="157" length="0.0650996"/>
+<edge source="177" target="158" length="0.36808127"/>
+<edge source="118" target="68" length="0.4450478"/>
+<edge source="105" target="4" length="0.0"/>
+<edge source="105" target="28" length="0.0"/>
+<edge source="118" target="105" length="0.47124314"/>
+<edge source="174" target="118" length="0.8132592"/>
+<edge source="111" target="74" length="0.8752632"/>
+<edge source="106" target="46" length="0.55652905"/>
+<edge source="102" target="79" length="1.571769"/>
+<edge source="102" target="81" length="0.32535195"/>
+<edge source="106" target="102" length="0.42964554"/>
+<edge source="111" target="106" length="0.23207688"/>
+<edge source="138" target="111" length="0.6639124"/>
+<edge source="137" target="44" length="0.69450104"/>
+<edge source="137" target="80" length="1.0374154"/>
+<edge source="138" target="137" length="0.12607837"/>
+<edge source="141" target="138" length="0.091733165"/>
+<edge source="107" target="57" length="0.4684471"/>
+<edge source="107" target="90" length="0.44784337"/>
+<edge source="140" target="107" length="0.8351239"/>
+<edge source="110" target="89" length="0.0"/>
+<edge source="109" target="72" length="0.0"/>
+<edge source="109" target="84" length="0.0"/>
+<edge source="110" target="109" length="0.0"/>
+<edge source="125" target="110" length="0.47301647"/>
+<edge source="119" target="31" length="0.37585577"/>
+<edge source="112" target="93" length="1.7493359"/>
+<edge source="119" target="112" length="0.20536122"/>
+<edge source="125" target="119" length="0.12561837"/>
+<edge source="140" target="125" length="0.22514927"/>
+<edge source="141" target="140" length="0.07386284"/>
+<edge source="160" target="141" length="0.43749017"/>
+<edge source="136" target="88" length="0.46550956"/>
+<edge source="114" target="38" length="0.0"/>
+<edge source="114" target="91" length="0.0"/>
+<edge source="116" target="114" length="0.0"/>
+<edge source="115" target="99" length="0.0"/>
+<edge source="113" target="6" length="0.0"/>
+<edge source="113" target="13" length="0.0"/>
+<edge source="115" target="113" length="0.0"/>
+<edge source="116" target="115" length="0.0"/>
+<edge source="136" target="116" length="0.45078114"/>
+<edge source="142" target="136" length="0.26027063"/>
+<edge source="100" target="52" length="0.8122478"/>
+<edge source="100" target="64" length="0.65742654"/>
+<edge source="117" target="100" length="1.044257"/>
+<edge source="101" target="18" length="4.8828125E-4"/>
+<edge source="101" target="97" length="4.8828125E-4"/>
+<edge source="104" target="101" length="0.3908137"/>
+<edge source="103" target="19" length="1.795538"/>
+<edge source="103" target="78" length="0.24468279"/>
+<edge source="104" target="103" length="0.1650002"/>
+<edge source="117" target="104" length="0.4586531"/>
+<edge source="139" target="117" length="0.5605336"/>
+<edge source="135" target="22" length="1.079459"/>
+<edge source="135" target="70" length="0.75312245"/>
+<edge source="139" target="135" length="0.25016117"/>
+<edge source="142" target="139" length="0.107863545"/>
+<edge source="160" target="142" length="0.37755072"/>
+<edge source="174" target="160" length="0.17756015"/>
+<edge source="176" target="174" length="0.19563976"/>
+<edge source="149" target="17" length="0.0"/>
+<edge source="149" target="20" length="0.0"/>
+<edge source="153" target="149" length="0.0"/>
+<edge source="150" target="25" length="0.0"/>
+<edge source="150" target="35" length="0.0"/>
+<edge source="153" target="150" length="0.0"/>
+<edge source="155" target="153" length="0.0"/>
+<edge source="151" target="41" length="0.0"/>
+<edge source="151" target="95" length="0.0"/>
+<edge source="154" target="151" length="0.0"/>
+<edge source="147" target="2" length="0.0"/>
+<edge source="147" target="7" length="0.0"/>
+<edge source="152" target="147" length="0.0"/>
+<edge source="148" target="12" length="0.0"/>
+<edge source="148" target="15" length="0.0"/>
+<edge source="152" target="148" length="0.0"/>
+<edge source="154" target="152" length="0.0"/>
+<edge source="155" target="154" length="0.0"/>
+<edge source="159" target="155" length="0.5685301"/>
+<edge source="156" target="5" length="0.6833496"/>
+<edge source="144" target="54" length="3.4526698E-4"/>
+<edge source="144" target="59" length="3.4526698E-4"/>
+<edge source="146" target="144" length="0.0"/>
+<edge source="145" target="82" length="3.453025E-4"/>
+<edge source="143" target="8" length="3.4526698E-4"/>
+<edge source="143" target="51" length="3.4526698E-4"/>
+<edge source="145" target="143" length="-3.5535777E-8"/>
+<edge source="146" target="145" length="0.0"/>
+<edge source="156" target="146" length="0.23259604"/>
+<edge source="159" target="156" length="0.34776062"/>
+<edge source="175" target="159" length="0.35374314"/>
+<edge source="167" target="65" length="0.0"/>
+<edge source="167" target="66" length="0.0"/>
+<edge source="171" target="167" length="0.0"/>
+<edge source="168" target="86" length="0.0"/>
+<edge source="168" target="92" length="0.0"/>
+<edge source="171" target="168" length="0.0"/>
+<edge source="173" target="171" length="0.0"/>
+<edge source="163" target="1" length="0.0"/>
+<edge source="163" target="9" length="0.0"/>
+<edge source="169" target="163" length="0.0"/>
+<edge source="164" target="36" length="0.0"/>
+<edge source="164" target="37" length="0.0"/>
+<edge source="169" target="164" length="0.0"/>
+<edge source="172" target="169" length="0.0"/>
+<edge source="165" target="40" length="0.0"/>
+<edge source="165" target="45" length="0.0"/>
+<edge source="170" target="165" length="0.0"/>
+<edge source="166" target="47" length="0.0"/>
+<edge source="166" target="58" length="0.0"/>
+<edge source="170" target="166" length="0.0"/>
+<edge source="172" target="170" length="0.0"/>
+<edge source="173" target="172" length="0.0"/>
+<edge source="175" target="173" length="0.48495156"/>
+<edge source="176" target="175" length="0.12726036"/>
+<edge source="177" target="176" length="0.017923206"/>
+<edge source="178" target="177" length="0.22063932"/>
+<edge source="179" target="178" length="0.4585809"/>
+<edge source="180" target="179" length="0.0"/>
+<edge source="181" target="180" length="0.0"/>
+<edge source="182" target="181" length="0.0"/>
+<edge source="183" target="182" length="0.0"/>
+<edge source="184" target="183" length="0.0"/>
+<edge source="185" target="184" length="0.0"/>
+<edge source="186" target="185" length="0.0"/>
+<edge source="187" target="186" length="0.0"/>
+<edge source="188" target="187" length="0.0"/>
+<edge source="189" target="188" length="0.0"/>
+<edge source="190" target="189" length="0.0"/>
+<edge source="191" target="190" length="0.0"/>
+<edge source="192" target="191" length="0.0"/>
+<edge source="193" target="192" length="0.0"/>
+<edge source="194" target="193" length="0.0"/>
+<edge source="195" target="194" length="0.0"/>
+<edge source="196" target="195" length="0.0"/>
+<edge source="197" target="196" length="0.0"/>
+<edge source="0" target="197" length="0.0"/>
+<edge source="108" target="0" length="0.0"/>
+<edge source="108" target="33" length="0.0"/>
+</edges>
+<edges name="KNN-RN-2">
+<edge source="0" target="31" length="0.94160885"/>
+<edge source="0" target="33" length="0.0"/>
+<edge source="44" target="0" length="1.3093332"/>
+<edge source="57" target="0" length="1.8325816"/>
+<edge source="93" target="0" length="1.8971199"/>
+<edge source="1" target="9" length="0.0"/>
+<edge source="1" target="36" length="0.0"/>
+<edge source="37" target="1" length="0.0"/>
+<edge source="40" target="1" length="0.0"/>
+<edge source="45" target="1" length="0.0"/>
+<edge source="47" target="1" length="0.0"/>
+<edge source="58" target="1" length="0.0"/>
+<edge source="65" target="1" length="0.0"/>
+<edge source="66" target="1" length="0.0"/>
+<edge source="86" target="1" length="0.0"/>
+<edge source="92" target="1" length="0.0"/>
+<edge source="2" target="7" length="0.0"/>
+<edge source="2" target="12" length="0.0"/>
+<edge source="15" target="2" length="0.0"/>
+<edge source="17" target="2" length="0.0"/>
+<edge source="20" target="2" length="0.0"/>
+<edge source="25" target="2" length="0.0"/>
+<edge source="35" target="2" length="0.0"/>
+<edge source="41" target="2" length="0.0"/>
+<edge source="95" target="2" length="0.0"/>
+<edge source="3" target="16" length="0.0"/>
+<edge source="3" target="21" length="0.0"/>
+<edge source="23" target="3" length="0.0"/>
+<edge source="24" target="3" length="0.0"/>
+<edge source="27" target="3" length="0.0"/>
+<edge source="32" target="3" length="0.0"/>
+<edge source="39" target="3" length="0.0"/>
+<edge source="43" target="3" length="0.0"/>
+<edge source="48" target="3" length="0.0"/>
+<edge source="49" target="3" length="0.0"/>
+<edge source="60" target="3" length="0.0"/>
+<edge source="62" target="3" length="0.0"/>
+<edge source="63" target="3" length="0.0"/>
+<edge source="69" target="3" length="0.0"/>
+<edge source="76" target="3" length="0.0"/>
+<edge source="77" target="3" length="0.0"/>
+<edge source="83" target="3" length="0.0"/>
+<edge source="87" target="3" length="0.0"/>
+<edge source="98" target="3" length="0.0"/>
+<edge source="4" target="28" length="0.0"/>
+<edge source="4" target="68" length="0.91629094"/>
+<edge source="5" target="8" length="0.91629094"/>
+<edge source="5" target="51" length="0.91629094"/>
+<edge source="6" target="13" length="0.0"/>
+<edge source="6" target="38" length="0.0"/>
+<edge source="70" target="6" length="1.4696757"/>
+<edge source="88" target="6" length="0.9162907"/>
+<edge source="90" target="6" length="1.8971199"/>
+<edge source="91" target="6" length="0.0"/>
+<edge source="99" target="6" length="0.0"/>
+<edge source="7" target="12" length="0.0"/>
+<edge source="15" target="7" length="0.0"/>
+<edge source="17" target="7" length="0.0"/>
+<edge source="20" target="7" length="0.0"/>
+<edge source="25" target="7" length="0.0"/>
+<edge source="35" target="7" length="0.0"/>
+<edge source="41" target="7" length="0.0"/>
+<edge source="95" target="7" length="0.0"/>
+<edge source="8" target="51" length="6.9053395E-4"/>
+<edge source="8" target="54" length="6.9053395E-4"/>
+<edge source="59" target="8" length="6.9053395E-4"/>
+<edge source="82" target="8" length="6.9053395E-4"/>
+<edge source="9" target="36" length="0.0"/>
+<edge source="37" target="9" length="0.0"/>
+<edge source="40" target="9" length="0.0"/>
+<edge source="45" target="9" length="0.0"/>
+<edge source="47" target="9" length="0.0"/>
+<edge source="58" target="9" length="0.0"/>
+<edge source="65" target="9" length="0.0"/>
+<edge source="66" target="9" length="0.0"/>
+<edge source="86" target="9" length="0.0"/>
+<edge source="92" target="9" length="0.0"/>
+<edge source="10" target="34" length="6.9053395E-4"/>
+<edge source="10" target="53" length="6.9053395E-4"/>
+<edge source="75" target="10" length="6.9053395E-4"/>
+<edge source="94" target="10" length="6.9053395E-4"/>
+<edge source="11" target="73" length="0.0"/>
+<edge source="11" target="85" length="0.0"/>
+<edge source="13" target="38" length="0.0"/>
+<edge source="70" target="13" length="1.4696757"/>
+<edge source="88" target="13" length="0.9162907"/>
+<edge source="91" target="13" length="0.0"/>
+<edge source="99" target="13" length="0.0"/>
+<edge source="14" target="26" length="0.0"/>
+<edge source="14" target="29" length="0.0"/>
+<edge source="42" target="14" length="0.0"/>
+<edge source="71" target="14" length="0.0"/>
+<edge source="80" target="14" length="1.8971199"/>
+<edge source="96" target="14" length="0.0"/>
+<edge source="16" target="21" length="0.0"/>
+<edge source="23" target="16" length="0.0"/>
+<edge source="24" target="16" length="0.0"/>
+<edge source="27" target="16" length="0.0"/>
+<edge source="32" target="16" length="0.0"/>
+<edge source="39" target="16" length="0.0"/>
+<edge source="43" target="16" length="0.0"/>
+<edge source="48" target="16" length="0.0"/>
+<edge source="49" target="16" length="0.0"/>
+<edge source="60" target="16" length="0.0"/>
+<edge source="62" target="16" length="0.0"/>
+<edge source="63" target="16" length="0.0"/>
+<edge source="69" target="16" length="0.0"/>
+<edge source="76" target="16" length="0.0"/>
+<edge source="77" target="16" length="0.0"/>
+<edge source="83" target="16" length="0.0"/>
+<edge source="87" target="16" length="0.0"/>
+<edge source="98" target="16" length="0.0"/>
+<edge source="19" target="18" length="2.2365346"/>
+<edge source="18" target="78" length="0.91629046"/>
+<edge source="18" target="97" length="9.765625E-4"/>
+<edge source="19" target="78" length="2.0402207"/>
+<edge source="52" target="22" length="2.5916104"/>
+<edge source="22" target="70" length="1.8325814"/>
+<edge source="22" target="88" length="1.7319168"/>
+<edge source="26" target="29" length="0.0"/>
+<edge source="42" target="26" length="0.0"/>
+<edge source="71" target="26" length="0.0"/>
+<edge source="96" target="26" length="0.0"/>
+<edge source="28" target="68" length="0.91629094"/>
+<edge source="30" target="50" length="6.9053395E-4"/>
+<edge source="30" target="55" length="6.9053395E-4"/>
+<edge source="56" target="30" length="6.9053395E-4"/>
+<edge source="61" target="30" length="6.9053395E-4"/>
+<edge source="67" target="30" length="6.9053395E-4"/>
+<edge source="33" target="31" length="0.94160885"/>
+<edge source="31" target="72" length="0.91629046"/>
+<edge source="31" target="84" length="0.91629046"/>
+<edge source="44" target="33" length="1.3093332"/>
+<edge source="93" target="33" length="1.8971199"/>
+<edge source="34" target="53" length="6.9053395E-4"/>
+<edge source="75" target="34" length="6.9053395E-4"/>
+<edge source="94" target="34" length="6.9053395E-4"/>
+<edge source="80" target="44" length="1.7319164"/>
+<edge source="46" target="74" length="1.6127551"/>
+<edge source="79" target="46" length="2.3997946"/>
+<edge source="46" target="81" length="1.4696757"/>
+<edge source="50" target="55" length="6.9053395E-4"/>
+<edge source="56" target="50" length="6.9053395E-4"/>
+<edge source="61" target="50" length="6.9053395E-4"/>
+<edge source="67" target="50" length="6.9053395E-4"/>
+<edge source="51" target="54" length="6.9053395E-4"/>
+<edge source="59" target="51" length="6.9053395E-4"/>
+<edge source="82" target="51" length="6.9053395E-4"/>
+<edge source="52" target="64" length="1.4696743"/>
+<edge source="57" target="90" length="0.91629046"/>
+<edge source="64" target="78" length="2.2522674"/>
+<edge source="72" target="84" length="0.0"/>
+<edge source="72" target="89" length="0.0"/>
+<edge source="73" target="85" length="0.0"/>
+<edge source="74" target="81" length="2.1819549"/>
+<edge source="78" target="97" length="0.91629046"/>
+<edge source="79" target="81" length="1.897121"/>
+<edge source="84" target="89" length="0.0"/>
+</edges>
+</graph>

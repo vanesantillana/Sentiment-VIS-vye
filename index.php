@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/style-tree.css">
     <link rel="stylesheet" type="text/css" href="css/style-tooltip.css">
     <link rel="stylesheet" type="text/css" href="css/loader.css">
+	<link type="text/css" rel="stylesheet" href="kmeans.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<!-- SCRIPTS tweets_2016_us_second_presidencial_debate_sp-->
 	<script type="text/javascript" src="js/d3.min.js"></script>
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
@@ -18,6 +21,7 @@
 	<script src="js/stackedArea.js" type="text/javascript"></script>
 	<script src="js/cloud.js" type="text/javascript"></script>
 	<script src="js/wordcloud.js" type="text/javascript"></script>
+	<script src="js/kmeans.js"></script>
     <title>Vye Sentiment Visualization</title>
     <script>
         <?php 
@@ -84,6 +88,8 @@
 				<li class="active"><a data-toggle="tab" href="#vis">Temporal</a></li>
 				<!--<li><a data-toggle="tab" href="#vis1">Linea de tiempo</a></li>-->
 				<li><a data-toggle="tab" href="#vis2">Nube de palabras</a></li>
+				<li><a data-toggle="tab" href="#vis3">K-mean</a></li>
+				<li><a data-toggle="tab" href="#vis4">Animación</a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -98,6 +104,38 @@
 				</div>
 				<div id="vis2" class="tab-pane fade">
 					<div id="chart" class="row"></div>
+				</div>
+				<div id="vis3" class="tab-pane fade">
+				<script>
+						$(document).ready(function()
+						{
+							kMeans("#kmeans", 650, 550, 1000, 5, 50);
+							//kMeans("body", 250, 250, 1000, 5, 10);
+						}); 
+						
+					</script>
+						<div id="kmeans" class="kmeans-chart col-md-10" align="center"></div>
+						<div class="clearfix"></div>
+					
+				</div>
+				<div id="vis4" class="tab-pane fade">
+					<p>timer: <span id="count"></span></p>
+					<script>
+						var start = new Date().getTime();
+						var time = 0;
+						var timeout = 5000;
+						function instance() {
+							if (time == timeout) {
+								time = 0;
+							} else {
+								time += 10;
+							}
+							$('#count').text(time);
+							var diff = (new Date().getTime() - start) - time;
+							window.setTimeout(instance, (100 - diff));
+						}
+						window.setTimeout(instance, 100);
+					</script>
 				</div>
 			</div>
 		</div>

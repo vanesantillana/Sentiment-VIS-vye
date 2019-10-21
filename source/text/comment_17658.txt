@@ -1,0 +1,1 @@
+Idea: turn off the microphone after the time limit if the candidate tries to continue talking PresidentialDebate

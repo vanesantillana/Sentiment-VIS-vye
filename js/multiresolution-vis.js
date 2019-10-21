@@ -1517,7 +1517,7 @@ function createTooltip(){
 										thrid_line = "<p class='message'><strong>Click</strong> para ver " + data_type +  "</p>";
 										titleDataModal = "<strong><p class='title' style='text-transform: capitalize;'>" + d.name + "</p></strong>"  + second_line;
 										msgDataModal = "<div id='chart_wcloud'></div><table class='table' style=width:'100%'>"+
-														"<tr><th>Comentario</th>"+
+														"<tr><th>Icon</th><th>Comentario</th>"+
 														"<th>% Positivo</th>"+
 														"<th>% Neutral</th>"+
 														"<th>% Negativo</th>"+
@@ -1537,13 +1537,22 @@ function createTooltip(){
 													string_search = string_search + "+" + splt[s];
 												}
 											}
-											var line = "<trx><td> <a href=\"https://www.google.com/search?q=" + string_search + "\" target=\"_blank\" </a>" +  textsArraySelected[i] + "</td>";
-											if(posArraySelec){
-												line = line + "<td>"+posArraySelec[i]+"</td>"
-												line = line + "<td>"+neuArraySelec[i]+"</td>"
-												line = line + "<td>"+negArraySelec[i]+"</td>"
+											var line ="<tr>";
+											var maxi = Math.max(posArraySelec[i],neuArraySelec[i], negArraySelec[i]);
+											if(maxi == posArraySelec[i])
+												line = line + '<td><i class="fas fa-smile-beam" style="color: green;"></i></td>';
+											else if(maxi == neuArraySelec[i])	
+												line = line + '<td><i class="fas fa-meh" style="color: yellow;"></i></td>';
+											else	
+												line = line + '<td><i class="fas fa-frown-open" style="color: red;"></i></td>';
+													
+											line = line+"<td> <a href=\"https://www.google.com/search?q=" + string_search + "\" target=\"_blank\" </a>" +  textsArraySelected[i] + "</td>";
+											//if(posArraySelec){
+												line = line + "<td>"+(posArraySelec[i]*100).toFixed(2)+"%</td>"
+												line = line + "<td>"+(neuArraySelec[i]*100).toFixed(2)+"%</td>"
+												line = line + "<td>"+(negArraySelec[i]*100).toFixed(2)+"%</td>"
 												//line = line + "<td>"+comArraySelec[i]+"</td>" 
-											}
+											//}
 											line = line + "</tr>";
 											//-------------------
 											msgDataModal = msgDataModal + line;

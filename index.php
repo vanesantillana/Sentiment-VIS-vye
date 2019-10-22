@@ -26,7 +26,8 @@
     <script>
         <?php 
             $name = "Analisis de Sentimientos de 2016 US Segundo Debate Presidencial";
-            $fileName = "tweets_2016_us_second_presidencial_debate_sp_plus";
+			$fileName = "tweets_2016_us_second_presidencial_debate_sp_plus";
+			$fileName = "data-100";
             $filePath = "source/" . $fileName . ".json";
             $timePolarity = 0; // 0 minutes, 1 hours, 2 days, 3 week, 4 month, 5 years
             $nTimeGranularity = 1; // interval by nGranularity minimum 1 max 5
@@ -43,7 +44,16 @@
         var nTimeGranularity = <?php echo $nTimeGranularity; ?>;
         var fileName = <?php echo json_encode($fileName); ?>; //json_encode for the String
         var getText = <?php echo json_encode($getText); ?>;
-    </script>
+	</script>
+	<style>
+		.info{
+		margin-top: 8rem;
+		background-color: white;
+		}
+		.valor{
+			font-size: 40px;
+		}
+</style>
 </head>
 
 <body class="cm-no-transition cm-1-navbar">
@@ -88,8 +98,9 @@
 				<li class="active"><a data-toggle="tab" href="#vis">Temporal</a></li>
 				<!--<li><a data-toggle="tab" href="#vis1">Linea de tiempo</a></li>-->
 				<li><a data-toggle="tab" href="#vis2">Nube de palabras</a></li>
-				<li><a data-toggle="tab" href="#vis3">K-mean</a></li>
-				<li><a data-toggle="tab" href="#vis4">Animación</a></li>
+				<li><a data-toggle="tab" href="#vis5">Matrix Similarity</a></li>
+				<!--<li><a data-toggle="tab" href="#vis3">K-mean</a></li>-->
+				<!--<li><a data-toggle="tab" href="#vis4">Animación</a></li>-->
 			</ul>
 
 			<div class="tab-content">
@@ -105,6 +116,7 @@
 				<div id="vis2" class="tab-pane fade">
 					<div id="chart" class="row"></div>
 				</div>
+				<!--
 				<div id="vis3" class="tab-pane fade">
 				<script>
 						$(document).ready(function()
@@ -136,6 +148,252 @@
 						}
 						window.setTimeout(instance, 100);
 					</script>
+				</div>-->
+				<div id="vis5" class="tab-pane fade">
+					<div class="row">
+						<div class="col-md-8">
+							<svg id="matrix"></svg>
+						</div>
+						<div class="col-md-4 info">
+							<div class="row">
+								<div class="col-md-2" style="background-color: #fffecb;">0</div>
+								<div class="col-md-2" style="background-color: #fee288;">0.2</div>
+								<div class="col-md-2" style="background-color: #feab49;">0.4</div>
+								<div class="col-md-2" style="background-color: #fc5b2e;">0.6</div>
+								<div class="col-md-2" style="background-color: #d30f20;">0.8</div>
+								<div class="col-md-2" style="background-color: #800026;">1</div>
+							</div>
+							<br>
+							<p>SIMILARIDAD: </p><p id="simil" class="valor"></p>
+							<p><b>Y:</b> <span id="com1"></span></p>
+							<p><b>X:</b> <span id="com2"></span></p>
+						</div>	
+					</div>
+					
+					<script type='text/javascript'>
+						var w = 800,
+							h = 800;
+						
+						var margin = {top: 50, right: 20, bottom: 70, left: 20};
+						var pad = 80;
+						var width = 2 * w + pad;
+						var svg = d3.select('svg#matrix')
+							.attr({
+								'width': width + margin.left + margin.right,
+								'height': h + margin.top + margin.bottom
+							})
+							.append('g')
+							.attr({
+								'transform': 'translate(' + margin.left + ',' + margin.top + ')',
+								'width': width,
+								'height': h
+							});
+						var corrplot = svg.append('g')
+							.attr({
+								'id': 'corrplot'
+							});
+						/*var scatterplot = svg.append('g')
+							.attr({
+								'id': 'scatterplot',
+								'transform': 'translate(' + (w + pad) + ',0)'
+							});*/
+						corrplot.append('text')
+							.text('Correlation matrix')
+							.attr({
+								'class': 'plottitle',
+								'x': w/2,
+								'y': -margin.top/2,
+								'dominant-baseline': 'middle',
+								'text-anchor': 'middle'
+							});
+						/*scatterplot.append('text')
+							.text('Scatter plot')
+							.attr({
+								'class': 'plottitle',
+								'x': w/2,
+								'y': -margin.top/2,
+								'dominant-baseline': 'middle',
+								'text-anchor': 'middle'
+							});*/
+						var corXscale = d3.scale.ordinal().rangeRoundBands([0,w]),
+							corYscale = d3.scale.ordinal().rangeRoundBands([h,0]),
+							corColScale = d3.scale.linear().domain([0,0.2,0.4,0.6,0.8,1]).range(['#fffecb','#fee288','#feab49','#fc5b2e','#d30f20','#800026']);
+						var corRscale = d3.scale.sqrt().domain([0,1]);
+						d3.json('source/vis-100.json', function(err, data) {
+							var nind = data.ind.length,
+								nvar = data.vars.length;
+							corXscale.domain(d3.range(nvar));
+							corYscale.domain(d3.range(nvar));
+							corRscale.range([0,0.5*corXscale.rangeBand()]);
+							var corr = [];
+							for (var i = 0; i < data.corr.length; ++i) {
+								for (var j = 0; j < data.corr[i].length; ++j) {
+									corr.push({row: i, col: j, value:data.corr[i][j]});
+								}
+							}
+							var cells = corrplot.append('g')
+								.attr('id', 'cells')
+								.selectAll('empty')
+								.data(corr)
+								.enter().append('g')
+								.attr({
+									'class': 'cell'
+								})
+								.style('pointer-events', 'all');
+							var rects = cells.append('rect')
+								.attr({
+									'x': function(d) { return corXscale(d.col); },
+									'y': function(d) { return corXscale(d.row); },
+									'width': corXscale.rangeBand(),
+									'height': corYscale.rangeBand(),
+									'fill': 'none',
+									'stroke': 'none',
+									'stroke-width': '1'
+								});
+							var circles = cells.append('circle')
+								.attr('cx', function(d) {return corXscale(d.col) + 0.5*corXscale.rangeBand(); })
+								.attr('cy', function(d) {return corXscale(d.row) + 0.5*corYscale.rangeBand(); })
+								.attr('r', function(d) {return corRscale(Math.abs(d.value)); })
+								.style('fill', function(d) { return corColScale(d.value); });
+							corrplot.selectAll('g.cell')
+								.on('mouseover', function(d) {
+									d3.select(this)
+										.select('rect')
+										.attr('stroke', 'black');
+									var xPos = parseFloat(d3.select(this).select('rect').attr('x'));
+									var yPos = parseFloat(d3.select(this).select('rect').attr('y'));
+									corrplot.append('text')
+										.attr({
+											'class': 'corrlabel',
+											'x': corXscale(d.col),
+											'y': h + margin.bottom*0.2
+										})
+										.text(data.vars[d.col][0])
+										.attr({
+											'dominant-baseline': 'middle',
+											'text-anchor': 'middle'
+										});
+									corrplot.append('text')
+										.attr({
+											'class': 'corrlabel'
+											// 'x': -margin.left*0.1,
+											// 'y': corXscale(d.row)
+										})
+										.text(data.vars[d.row][0])
+										.attr({
+											'dominant-baseline': 'middle',
+											'text-anchor': 'middle',
+											'transform': 'translate(' + (-margin.left*0.1) + ',' + corXscale(d.row) + ')rotate(270)'
+										});
+									corrplot.append('rect')
+										.attr({
+											'class': 'tooltip',
+											'x': xPos + 10,
+											'y': yPos - 30,
+											'width': 40,
+											'height': 20,
+											'fill': 'rgba(200, 200, 200, 0.5)',
+											'stroke': 'black'
+										});
+									corrplot.append('text')
+										.attr({
+											'class': 'tooltip',
+											'x': xPos + 30,
+											'y': yPos - 15,
+											'text-anchor': 'middle',
+											'font-family': 'sans-serif',
+											'font-size': '14px',
+											'font-weight': 'bold',
+											'fill': 'black'
+										})
+										.text(d3.format('.2f')(d.value));
+								})
+								.on('mouseout', function(d) {
+									d3.select('#corrtext').remove();
+									d3.selectAll('.corrlabel').remove();
+									d3.select(this)
+										.select('rect')
+										.attr('stroke', 'none');
+									//Hide the tooltip
+									d3.selectAll('.tooltip').remove();
+									var x = document.getElementById("simil");
+									x.innerHTML = d.value;
+									x.style.color = corColScale(d.value);
+									document.getElementById("com1").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.row][2]+'" ></i> '+data.vars[d.row][1]+' - '+data.vars[d.row][0];
+									document.getElementById("com2").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.col][2]+'" ></i> '+data.vars[d.col][1]+' - '+data.vars[d.col][0];
+								})
+								.on('click', function(d) {
+									var x = document.getElementById("simil");
+									x.innerHTML = d.value;
+									x.style.color = corColScale(d.value);
+									document.getElementById("com1").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.row][2]+'" ></i> '+data.vars[d.row][1]+' - '+data.vars[d.row][0];
+									document.getElementById("com2").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.col][2]+'" ></i> '+data.vars[d.col][1]+' - '+data.vars[d.col][0];
+									/*drawScatter(d.col, d.row);*/
+
+								});
+							/*var drawScatter = function(col, row) {
+								console.log('column ' + col + ', row ' + row);
+								d3.selectAll('.points').remove();
+								d3.selectAll('.axis').remove();
+								d3.selectAll('.scatterlabel').remove();
+								var xScale = d3.scale.linear()
+									.domain(d3.extent(data.dat[col]))
+									.range([0, w]);
+								var yScale = d3.scale.linear()
+									.domain(d3.extent(data.dat[row]))
+									.range([h, 0]);
+								var xAxis = d3.svg.axis()
+									.scale(xScale)
+									.orient('bottom')
+									.ticks(5);
+								var yAxis = d3.svg.axis()
+									.scale(yScale)
+									.orient('left');
+								scatterplot.append('g')
+									.attr('class', 'points')
+									.selectAll('empty')
+									.data(d3.range(nind))
+									.enter().append('circle')
+									.attr({
+										'class': 'point',
+										'cx': function(d) {
+											return xScale(data.dat[col][d]);
+										},
+										'cy': function(d) {
+											return yScale(data.dat[row][d]);
+										},
+										'r': 2,
+										'stroke': 'none',
+										'fill': 'black'
+									});
+								scatterplot.append('g')
+									.attr('class', 'x axis')
+									.attr('transform', 'translate(0,' + h + ')')
+									.call(xAxis);
+								scatterplot.append('g')
+									.attr('class', 'y axis')
+									.call(yAxis);
+								scatterplot.append('text')
+									.text(data.vars[col])
+									.attr({
+										'class': 'scatterlabel',
+										'x': w/2,
+										'y': h + margin.bottom/2,
+										'text-anchor': 'middle',
+										'dominant-baseline': 'middle'
+									});
+								scatterplot.append('text')
+									.text(data.vars[row])
+									.attr({
+										'class': 'scatterlabel',
+										'transform': 'translate(' + (-pad/1.25) + ',' + (h/2) + ')rotate(270)',
+										'dominant-baseline': 'middle',
+										'text-anchor': 'middle'
+									});
+							}*/
+						});
+					</script>
+					
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,793 @@
+{
+    "type": "tweets",
+    "data": [{
+        "neu": 0.784,
+        "neg": 0.216,
+        "text": "It's the first time Kellyanne seems worn down. debates",
+        "value": "Calmado",
+        "date_time": "09/10/2016 22:54:09",
+        "pos": 0.0,
+        "compound": -0.296
+    }, {
+        "neu": 0.631,
+        "neg": 0.257,
+        "text": "DEBATES CNN HillaryClinton DonaldTrump CNN you are a complete fake news media. please stop your uneducated comments.",
+        "value": "Estresado",
+        "date_time": "09/10/2016 22:54:10",
+        "pos": 0.112,
+        "compound": -0.4588
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Unless ...\" Kellyanne's entire life flashed before her Debates2016",
+        "value": "Exaltado",
+        "date_time": "09/10/2016 22:59:21",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "GF: \"Talk locker room to me.\" debates",
+        "value": "Calmado",
+        "date_time": "09/10/2016 22:59:24",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.824,
+        "neg": 0.0,
+        "text": "A friend told me she did a shot every time sniffed. She's now in an alcohol coma. PresidentialDebate",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 22:59:33",
+        "pos": 0.176,
+        "compound": 0.4939
+    }, {
+        "neu": 0.649,
+        "neg": 0.0,
+        "text": "That man who asked that last question is my hero ???? kindness goes a long way debatenight",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 22:59:45",
+        "pos": 0.351,
+        "compound": 0.8205
+    }, {
+        "neu": 0.868,
+        "neg": 0.132,
+        "text": "Wait. Conway said she's with the campaign til the very end \"unless...\" and stopped herself! Unless what? What?? Debates",
+        "value": "Aburrido",
+        "date_time": "09/10/2016 22:59:53",
+        "pos": 0.0,
+        "compound": -0.4082
+    }, {
+        "neu": 0.667,
+        "neg": 0.0,
+        "text": "I just hope to God we do not see another campaign like this one...This is just disgraceful.\" - Election2016 debates",
+        "value": "Feliz",
+        "date_time": "09/10/2016 22:59:57",
+        "pos": 0.333,
+        "compound": 0.7579
+    }, {
+        "neu": 0.568,
+        "neg": 0.171,
+        "text": "Trump thinks assaulting women is ok because he's not as bad as Isis Debates",
+        "value": "Sereno",
+        "date_time": "09/10/2016 23:00:01",
+        "pos": 0.261,
+        "compound": 0.1901
+    }, {
+        "neu": 0.553,
+        "neg": 0.0,
+        "text": "won this debate. came in unprepared but still manage to BS each ques. pretty good. Presidentialdebate",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:00:03",
+        "pos": 0.447,
+        "compound": 0.8885
+    }, {
+        "neu": 0.756,
+        "neg": 0.0,
+        "text": "I wish someone would remember to mention that Hillary sold RUSSIA 20% of the United States supply ofuranium. debatenight ThanksHillary",
+        "value": "Sereno",
+        "date_time": "09/10/2016 23:00:07",
+        "pos": 0.244,
+        "compound": 0.6705
+    }, {
+        "neu": 0.729,
+        "neg": 0.169,
+        "text": "debatenight she can not admit it, but Hillary just WONT be proud of America, she refuses to acknowledge helping us first. foreign donations",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:00:20",
+        "pos": 0.102,
+        "compound": -0.2088
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Locker room talk is now the slogan for every sexual assaulter PresidentialDebate",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:00:21",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.58,
+        "neg": 0.42,
+        "text": "Van Jones is shocked SHOCKED that threatened to jail his opponent. But not shocked by the fact she broke the law debates",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:00:23",
+        "pos": 0.0,
+        "compound": -0.8838
+    }, {
+        "neu": 0.678,
+        "neg": 0.322,
+        "text": "debatenight: do you assault women trump: I WILL SQUASH ISIS",
+        "value": "Estresado",
+        "date_time": "09/10/2016 23:00:24",
+        "pos": 0.0,
+        "compound": -0.5859
+    }, {
+        "neu": 0.732,
+        "neg": 0.268,
+        "text": "Biggest losers tonight: all the Republicans up for election who called for Trump to drop out Debates2016",
+        "value": "Triste",
+        "date_time": "09/10/2016 23:00:28",
+        "pos": 0.0,
+        "compound": -0.6705
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "shifted in her seat and looked down when asked about \"more shoes dropping\" debates",
+        "value": "Letargico",
+        "date_time": "09/10/2016 23:00:29",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.87,
+        "neg": 0.13,
+        "text": "A line has been crossed that I do not think has ever been crossed in history... He threatened to jail his opponent.\" debates",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:00:29",
+        "pos": 0.0,
+        "compound": -0.4588
+    }, {
+        "neu": 0.694,
+        "neg": 0.114,
+        "text": "Anyone else think it would be freaking awesome to have judgejudy as a debate moderator? \"JUST ANSWER THE QUESTION!!\" debatenight",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:00:32",
+        "pos": 0.191,
+        "compound": 0.4374
+    }, {
+        "neu": 0.822,
+        "neg": 0.0,
+        "text": "I'm going to need a welding helmet for the 3rd debate because Trump will be shining so bright!! debatenight debate debates deplorables",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:00:39",
+        "pos": 0.178,
+        "compound": 0.6514
+    }, {
+        "neu": 0.885,
+        "neg": 0.115,
+        "text": "Sexism = no woman with as little education or knowledge as would have gotten near that stage PSLiveDebate Debates2016",
+        "value": "Triste",
+        "date_time": "09/10/2016 23:00:47",
+        "pos": 0.0,
+        "compound": -0.296
+    }, {
+        "neu": 0.556,
+        "neg": 0.0,
+        "text": "Tonight's headline: Trump Wins! Debates Debate",
+        "value": "Exaltado",
+        "date_time": "09/10/2016 23:00:49",
+        "pos": 0.444,
+        "compound": 0.6114
+    }, {
+        "neu": 0.793,
+        "neg": 0.0,
+        "text": "He will not ever be able come back after this. Nice try to that surrogate trying to act like he could. Debates2016 nevertrump imwithher",
+        "value": "Sereno",
+        "date_time": "09/10/2016 23:00:49",
+        "pos": 0.207,
+        "compound": 0.6956
+    }, {
+        "neu": 0.373,
+        "neg": 0.197,
+        "text": "The award for best horror movie goes to debatenight ??",
+        "value": "Nervioso",
+        "date_time": "09/10/2016 23:00:50",
+        "pos": 0.43,
+        "compound": 0.6553
+    }, {
+        "neu": 0.682,
+        "neg": 0.132,
+        "text": "Donot need a poll or anythung else to tell me what I just witnessed... TRUMP GRAND SLAM!!!! He absolutely destroyed Hillary debatenight",
+        "value": "Tenso",
+        "date_time": "09/10/2016 23:00:53",
+        "pos": 0.186,
+        "compound": 0.3417
+    }, {
+        "neu": 0.875,
+        "neg": 0.0,
+        "text": "Very interesting debates to watch. We shall see what the networks focus on: policy discussions? Or salacious comments from 11 years ago.",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:00:59",
+        "pos": 0.125,
+        "compound": 0.4576
+    }, {
+        "neu": 0.731,
+        "neg": 0.269,
+        "text": "I hate this BS. Trump drags the conversation into the gutter and the talking heads moan and groan that it's bothsides. debate debatenight",
+        "value": "Sereno",
+        "date_time": "09/10/2016 23:01:05",
+        "pos": 0.0,
+        "compound": -0.7184
+    }, {
+        "neu": 0.75,
+        "neg": 0.0,
+        "text": "Really wish had called a pussy at the debate tonight. debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:01:20",
+        "pos": 0.25,
+        "compound": 0.4576
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "A fly. Landed on her face. And she did not even flinch. debates",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:01:22",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.879,
+        "neg": 0.0,
+        "text": "Fun nugget. Ken Bone also is the name of the coach who replaced Tony Bennett at Washington State when he left for UVa. Really. debatenight",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:01:30",
+        "pos": 0.121,
+        "compound": 0.5106
+    }, {
+        "neu": 0.85,
+        "neg": 0.0,
+        "text": "debatenight MAGA3X TrumpTruth won this debate Big League. MSM will be going out of their minds to keep everyone's focus on Trumptape.",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:01:39",
+        "pos": 0.15,
+        "compound": 0.5719
+    }, {
+        "neu": 0.726,
+        "neg": 0.274,
+        "text": "Kellyanne Conway just said \"I'm with the campaign to the bitter end unless...\" Hard stop. What does that mean? debatenight",
+        "value": "Nervioso",
+        "date_time": "09/10/2016 23:01:46",
+        "pos": 0.0,
+        "compound": -0.6597
+    }, {
+        "neu": 0.644,
+        "neg": 0.241,
+        "text": "A scientific fact: decomposing flesh will attract flies Not healthy! Donot trust fingers anywhere near nuke button Debates",
+        "value": "Nervioso",
+        "date_time": "09/10/2016 23:01:52",
+        "pos": 0.115,
+        "compound": -0.4122
+    }, {
+        "neu": 0.673,
+        "neg": 0.327,
+        "text": "But you lied to once before so.... Debates2016",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:01:57",
+        "pos": 0.0,
+        "compound": -0.5267
+    }, {
+        "neu": 0.747,
+        "neg": 0.0,
+        "text": "I was very happy to see a non-hijabi Muslim woman ask a very important question about post election era for Muslim Americans debates2016",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:03:38",
+        "pos": 0.253,
+        "compound": 0.7258
+    }, {
+        "neu": 0.28,
+        "neg": 0.639,
+        "text": "No no no no no no no no NO. Not one American should accept the \"locker room\" copout. PresidentialDebate",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:03:49",
+        "pos": 0.081,
+        "compound": -0.9317
+    }, {
+        "neu": 0.756,
+        "neg": 0.0,
+        "text": "Best line, Hillary: it's a good thing your not in charge of the FBI. Trump: Your Right If I was you'd be in jail. Debate Debates2016",
+        "value": "Estresado",
+        "date_time": "09/10/2016 23:04:09",
+        "pos": 0.244,
+        "compound": 0.7964
+    }, {
+        "neu": 0.627,
+        "neg": 0.373,
+        "text": "Someone tell me how the hell ls Hilary trending-are we so uneducated & lazy we can not spell HRC's name right? WTF FOH debatenight",
+        "value": "Deprimido",
+        "date_time": "09/10/2016 23:04:15",
+        "pos": 0.0,
+        "compound": -0.9171
+    }, {
+        "neu": 0.795,
+        "neg": 0.0,
+        "text": "The real winners of the PresidentialDebate were the people who watched WWENoMercy instead",
+        "value": "Relajado",
+        "date_time": "09/10/2016 23:04:21",
+        "pos": 0.205,
+        "compound": 0.4767
+    }, {
+        "neu": 0.583,
+        "neg": 0.417,
+        "text": "America lost by allowing Trump, a racist, misogynist, unintelligent hack, to even be on the ticket. debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:04:22",
+        "pos": 0.0,
+        "compound": -0.8519
+    }, {
+        "neu": 0.819,
+        "neg": 0.0,
+        "text": "Running mate Mike Pence said in a tweet he is proud to stand with DonaldTrump Debates2016",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:04:29",
+        "pos": 0.181,
+        "compound": 0.4767
+    }, {
+        "neu": 0.535,
+        "neg": 0.244,
+        "text": "I thought Hilary Clinton won. We all forget she is forced to try and have a respectable debate with a drunk toddler debate debatenight",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:04:38",
+        "pos": 0.221,
+        "compound": 0.0772
+    }, {
+        "neu": 0.519,
+        "neg": 0.0,
+        "text": "I think we need an additional political party. The \"God help us all\" party. Debate PresidentialDebate",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:04:50",
+        "pos": 0.481,
+        "compound": 0.8481
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Trump dog whistled to his base the entire debate. Not a single moment of bridging the divide in America. debate debatenight SheWon",
+        "value": "Estresado",
+        "date_time": "09/10/2016 23:04:59",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.661,
+        "neg": 0.0,
+        "text": "Trump attempted to make the women of America at ease by pacing around Hillary like a tiger. Good call! debatenight",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:05:09",
+        "pos": 0.339,
+        "compound": 0.8016
+    }, {
+        "neu": 0.745,
+        "neg": 0.255,
+        "text": ".is NOT a good person She is enabling a sociopath That was a weird segment, U GUYS .debatenight",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:05:09",
+        "pos": 0.0,
+        "compound": -0.4777
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "For the record, 'pussy bow' is a style of blouse, not just the name of that specific blouse. But still... PussyBow debates gucci",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:05:12",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.654,
+        "neg": 0.211,
+        "text": "Bob Schieffer said \"Disgraceful! I hope I never see anything like this again. It was more like Wrestlemania. PresidentialDebate",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:05:15",
+        "pos": 0.135,
+        "compound": -0.1561
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "You know who says they are going to put their opponents in jail? dictators thinkaboutit debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:05:23",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.799,
+        "neg": 0.201,
+        "text": "PSA: IT IS NOT \"LOCKER ROOM TALK\" TO REFERENCE GRABBING WOMEN BY THE PUSSY. ITS LITERALLY SEXUAL ASSAULT. debates",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:05:29",
+        "pos": 0.0,
+        "compound": -0.6739
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Another PresidentialDebate where CrookedHillary did not have an American Flag on her lapel. Something always has.",
+        "value": "Sereno",
+        "date_time": "09/10/2016 23:05:33",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.843,
+        "neg": 0.157,
+        "text": "Donald complains that he did not get equal time... yet he got more time... debatenight",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:05:34",
+        "pos": 0.0,
+        "compound": -0.3818
+    }, {
+        "neu": 0.918,
+        "neg": 0.082,
+        "text": "debatenight 60% of Americans did not vote during primary elections. Wondering how we got here? It's because you did not vote truth vote",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:05:35",
+        "pos": 0.0,
+        "compound": -0.2411
+    }, {
+        "neu": 0.612,
+        "neg": 0.255,
+        "text": "Threatening to jail his opponent if he wins election erodes the basis of democracy. We must StopTrump. Horrifying. debates debates2016",
+        "value": "Letargico",
+        "date_time": "09/10/2016 23:05:38",
+        "pos": 0.133,
+        "compound": -0.5267
+    }, {
+        "neu": 0.758,
+        "neg": 0.0,
+        "text": "Of course @ChrisStirewalt, with his hideous wooden teeth, can not give Trump the credit for the win that he deserves. KellyFile DebateNight",
+        "value": "Exaltado",
+        "date_time": "09/10/2016 23:05:41",
+        "pos": 0.242,
+        "compound": 0.7506
+    }, {
+        "neu": 0.847,
+        "neg": 0.0,
+        "text": "In 30 days we will be asked to vote for our next president...God help us debatenight",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:06:02",
+        "pos": 0.153,
+        "compound": 0.4019
+    }, {
+        "neu": 0.909,
+        "neg": 0.0,
+        "text": "I want answers on Benghazi from Hillary.What difference does it make? A BIG ONE debatenight BigLeagueTruth",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:06:02",
+        "pos": 0.091,
+        "compound": 0.0772
+    }, {
+        "neu": 0.755,
+        "neg": 0.0,
+        "text": "These debates are intense man",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:06:05",
+        "pos": 0.245,
+        "compound": 0.0772
+    }, {
+        "neu": 0.522,
+        "neg": 0.217,
+        "text": "Honestly I'm exhausted from watching that debate. debates",
+        "value": "Nervioso",
+        "date_time": "09/10/2016 23:06:08",
+        "pos": 0.261,
+        "compound": 0.128
+    }, {
+        "neu": 0.583,
+        "neg": 0.165,
+        "text": "Trump's threat to put Hilary in jail if he becomes President definitely sounds like dictatorship.debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:06:12",
+        "pos": 0.252,
+        "compound": 0.2023
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "FACT CHECK: Benghazi's time zone is six hours ahead of Washington DC's so the \"3am phone call\" would've been received at 9pm. debates",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:06:13",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.75,
+        "neg": 0.25,
+        "text": "I vote in 5 days!! Canot wait to get this nonsense over with! debatenight debate",
+        "value": "Aburrido",
+        "date_time": "09/10/2016 23:06:16",
+        "pos": 0.0,
+        "compound": -0.6125
+    }, {
+        "neu": 0.846,
+        "neg": 0.154,
+        "text": "Last week, Trump said Hillary did not have the stamina to be President, now he says she never quits. Even Trump knows he's lost. debatenight",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:06:31",
+        "pos": 0.0,
+        "compound": -0.4919
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "I do not think answered a single question tonight debate debates debatenight",
+        "value": "Triste",
+        "date_time": "09/10/2016 23:06:35",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "*marks herself \"safe\" after the 2016 Presidential debates*",
+        "value": "Sereno",
+        "date_time": "09/10/2016 23:06:48",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.805,
+        "neg": 0.08,
+        "text": "A new low in American politics .. from the trump tapes on women to saying he will jail his opponent. My goodness. debate debatenight",
+        "value": "Estresado",
+        "date_time": "09/10/2016 23:06:55",
+        "pos": 0.115,
+        "compound": 0.2263
+    }, {
+        "neu": 0.721,
+        "neg": 0.279,
+        "text": "Who told more lies? (twisted the truth) debate debates",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:07:05",
+        "pos": 0.0,
+        "compound": -0.4754
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Debates2016 My big take away from HillaryClinton is \"it's all a lie check my website...",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:07:07",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.72,
+        "neg": 0.28,
+        "text": "5. The third most memorable moment will be Trump threatening Clinton with prosecution should he be elected. debate2016 DebateNight",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:07:14",
+        "pos": 0.0,
+        "compound": -0.765
+    }, {
+        "neu": 0.927,
+        "neg": 0.073,
+        "text": "Trump lied in this debate too, but appare notly from the discussion on msnbc it's not a big deal anymore. But it should be. debatenight",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:07:24",
+        "pos": 0.0,
+        "compound": -0.2023
+    }, {
+        "neu": 0.741,
+        "neg": 0.0,
+        "text": "Best line of the night- \"because you'd be in jail.\" DebateNight Debate TrumpWon",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:07:33",
+        "pos": 0.259,
+        "compound": 0.6369
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Wait, was that the presidential debate or an episode of Maury vs. Judge Judy?! presidentialdebate",
+        "value": "Aburrido",
+        "date_time": "09/10/2016 23:07:53",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "Spectacle is the sun that never sets over the empire of modern passivity. -Debord PresidentialDebate Debate",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:08:04",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.675,
+        "neg": 0.325,
+        "text": "No, ChuckTodd -- KellyanneConway is NOT \"just a very good person.\" Msnbc debates",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:08:37",
+        "pos": 0.0,
+        "compound": -0.589
+    }, {
+        "neu": 0.741,
+        "neg": 0.259,
+        "text": "Megyn Kelly comes off as a man hater. debatenight debate",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:09:04",
+        "pos": 0.0,
+        "compound": -0.4215
+    }, {
+        "neu": 0.76,
+        "neg": 0.0,
+        "text": "Great point, African dictators jail their opponents when elected. Not US presidents. debate debates2016",
+        "value": "Trastornado",
+        "date_time": "09/10/2016 23:09:17",
+        "pos": 0.24,
+        "compound": 0.6249
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "I'm moderating the next debate seriously.....debates2016",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:09:24",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.815,
+        "neg": 0.0,
+        "text": "Wow! We had nearly 11,000 live viewers on and 72,000 on Facebook Live watching my analysis of tonight's Debates",
+        "value": "Relajado",
+        "date_time": "09/10/2016 23:09:59",
+        "pos": 0.185,
+        "compound": 0.6239
+    }, {
+        "neu": 1.0,
+        "neg": 0.0,
+        "text": "James Carville: \"Trump fact-checkers are going to be busier than a one-armed paper hanger.\" debates",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:10:19",
+        "pos": 0.0,
+        "compound": 0.0
+    }, {
+        "neu": 0.657,
+        "neg": 0.275,
+        "text": "What I will not forget from tonight is Trump threatening to jail Clinton In a constitutional republic that's ugly & UnAmerican debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:10:23",
+        "pos": 0.068,
+        "compound": -0.7214
+    }, {
+        "neu": 0.727,
+        "neg": 0.133,
+        "text": "Fact check: Trump: \"No one respects women more than I do.\" Fact Checker: False debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:10:30",
+        "pos": 0.139,
+        "compound": 0.0258
+    }, {
+        "neu": 0.704,
+        "neg": 0.0,
+        "text": "debatenight: cats or dogs trump: welll i believe in grapes, GRAPES ARE BEAUTIFUL",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:11:14",
+        "pos": 0.296,
+        "compound": 0.6841
+    }, {
+        "neu": 0.747,
+        "neg": 0.0,
+        "text": "Donald Trump: I successfully evaded paying my taxes Pundits: Trump performed better tonight than he did in the previous debate debates",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:11:23",
+        "pos": 0.253,
+        "compound": 0.7269
+    }, {
+        "neu": 0.884,
+        "neg": 0.116,
+        "text": "That was the most childish communication between 2 sober professionals (age 60+) that I have ever witnessed in my entire life. Debates2016",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:11:33",
+        "pos": 0.0,
+        "compound": -0.3597
+    }, {
+        "neu": 0.862,
+        "neg": 0.062,
+        "text": "debatenight Like the Muslim lady, I was also undecided, But now I'll be voting Trump as many times as dems will let me",
+        "value": "Calmado",
+        "date_time": "09/10/2016 23:11:43",
+        "pos": 0.075,
+        "compound": 0.0772
+    }, {
+        "neu": 0.663,
+        "neg": 0.337,
+        "text": "Hillary class act in decorum & content.Trump pacing bully, threatening his opponent w jail. ImWithHer voices4hillary debates2016",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:11:43",
+        "pos": 0.0,
+        "compound": -0.765
+    }, {
+        "neu": 0.737,
+        "neg": 0.18,
+        "text": "Oh @mike_pence, he has not talked to you yet? Or... at all? Consent issues continue. = sexual assault. debatenight debate",
+        "value": "Estresado",
+        "date_time": "09/10/2016 23:11:52",
+        "pos": 0.082,
+        "compound": -0.504
+    }, {
+        "neu": 0.913,
+        "neg": 0.0,
+        "text": "The moderators should have the ability to shut off the mics of the candidates when they go over time & when they flat out lie debatenight",
+        "value": "Contento",
+        "date_time": "09/10/2016 23:11:59",
+        "pos": 0.087,
+        "compound": 0.3182
+    }, {
+        "neu": 0.809,
+        "neg": 0.0,
+        "text": "Abe was honest cause he went back after his bankruptcy and paid his debts. debatenight",
+        "value": "Estresado",
+        "date_time": "09/10/2016 23:11:59",
+        "pos": 0.191,
+        "compound": 0.5106
+    }, {
+        "neu": 0.599,
+        "neg": 0.0,
+        "text": "Thank you! speak truth to power! Hillary won by a country mile! debatenight debate ImWithHer Hillary Trump Clinton",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:12:00",
+        "pos": 0.401,
+        "compound": 0.8547
+    }, {
+        "neu": 0.66,
+        "neg": 0.147,
+        "text": "Clinton kept personal attacks, Trump directed back on track to real issues Win debates TrumpPence2016",
+        "value": "Feliz",
+        "date_time": "09/10/2016 23:12:01",
+        "pos": 0.193,
+        "compound": 0.2263
+    }],
+    "ranges": {
+        "name": "Rangos de Sentimentos",
+        "children": [{
+            "name": "Positivo",
+            "children": [{
+                "name": "Exaltado",
+                "color": "rgb(0, 116, 0)"
+            }, {
+                "name": "Feliz",
+                "color": "rgb(42, 139, 42)"
+            }, {
+                "name": "Relajado",
+                "color": "rgb(85, 162, 85)"
+            }, {
+                "name": "Sereno",
+                "color": "rgb(127, 185, 127)"
+            }, {
+                "name": "Emocionado",
+                "color": "rgb(170, 208, 170)"
+            }, {
+                "name": "Contento",
+                "color": "rgb(212, 231, 212)"
+            }]
+        }, {
+            "name": "Neutral",
+            "children": [{
+                "name": "Calmado",
+                "color": "rgb(196, 69, 0)"
+            }, {
+                "name": "Alerta",
+                "color": "rgb(210, 115, 63)"
+            }, {
+                "name": "Nervioso",
+                "color": "rgb(225, 162, 127)"
+            }, {
+                "name": "Aburrido",
+                "color": "rgb(240, 208, 191)"
+            }]
+        }, {
+            "name": "Negativo",
+            "children": [{
+                "name": "Letargico",
+                "color": "rgb(0, 79, 161)"
+            }, {
+                "name": "Tenso",
+                "color": "rgb(42, 108, 176)"
+            }, {
+                "name": "Estresado",
+                "color": "rgb(85, 137, 192)"
+            }, {
+                "name": "Trastornado",
+                "color": "rgb(127, 167, 208)"
+            }, {
+                "name": "Triste",
+                "color": "rgb(170, 196, 223)"
+            }, {
+                "name": "Deprimido",
+                "color": "rgb(212, 225, 239)"
+            }]
+        }]
+    }
+}

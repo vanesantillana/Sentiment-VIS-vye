@@ -9484,9 +9484,9 @@ body.cm-login {
     }
 
     header {
-        -webkit-transform: translateX(562px) translateZ(0);
-        -ms-transform: translateX(562px);
-        -o-transform: translateX(562px);s
+        -webkit-transform: translateX(422px) translateZ(0);
+        -ms-transform: translateX(422px);
+        -o-transform: translateX(422px);s
         transform: translateX(422px) translateZ(0)
     }
 

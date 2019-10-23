@@ -164,6 +164,10 @@
 								<div class="col-md-2" style="background-color: #800026;">1</div>
 							</div>
 							<br>
+							<p>SIMILARIDAD: </p><p id="similclick" class="valor"></p>
+							<p><b>Y:</b> <span id="com1click"></span></p>
+							<p><b>X:</b> <span id="com2click"></span></p>
+							<hr>
 							<p>SIMILARIDAD: </p><p id="simil" class="valor"></p>
 							<p><b>Y:</b> <span id="com1"></span></p>
 							<p><b>X:</b> <span id="com2"></span></p>
@@ -328,6 +332,12 @@
 									x.style.color = corColScale(d.value);
 									document.getElementById("com1").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.row][2]+'" ></i> '+data.vars[d.row][1]+' - '+data.vars[d.row][0];
 									document.getElementById("com2").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.col][2]+'" ></i> '+data.vars[d.col][1]+' - '+data.vars[d.col][0];
+
+									var x = document.getElementById("similclick");
+									x.innerHTML = d.value;
+									x.style.color = corColScale(d.value);
+									document.getElementById("com1click").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.row][2]+'" ></i> '+data.vars[d.row][1]+' - '+data.vars[d.row][0];
+									document.getElementById("com2click").innerHTML = '<i class="fas fa-circle" style="color: '+data.vars[d.col][2]+'" ></i> '+data.vars[d.col][1]+' - '+data.vars[d.col][0];
 									/*drawScatter(d.col, d.row);*/
 
 								});

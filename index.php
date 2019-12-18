@@ -100,7 +100,7 @@
 				<!--<li><a data-toggle="tab" href="#vis1">Linea de tiempo</a></li>-->
 				<li><a data-toggle="tab" href="#vis2">Nube de palabras</a></li>
 				<li><a data-toggle="tab" href="#vis5">Matrix Similarity</a></li>
-				<li><a data-toggle="tab" href="#vis6">Words2Vec</a></li>
+				<li><a data-toggle="tab" href="#vis6">BERT embeddings</a></li>
 				<!--<li><a data-toggle="tab" href="#vis3">K-mean</a></li>-->
 				<!--<li><a data-toggle="tab" href="#vis4">Animación</a></li>-->
 			</ul>

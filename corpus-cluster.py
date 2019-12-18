@@ -22,23 +22,30 @@ corpus_embeddings = embedder.encode(corpus)
 num_clusters = 2
 result_jsn = {'name':'', 'children':[]}
 
-def clustering(corpus_embeddings):
-    if(len(corpus_embeddings)<1):
-        return {"name": corpus_embeddings[0], "size": 0}
+def clustering(corpus_t):
     clustering_model = AgglomerativeClustering(n_clusters=num_clusters)
-    clustering_model.fit(corpus_embeddings)
+    clustering_model.fit(corpus_t)
     cluster_assignment = clustering_model.labels_
 
     clustered_sentences = [[] for i in range(num_clusters)]
     for sentence_id, cluster_id in enumerate(cluster_assignment):
         clustered_sentences[cluster_id].append(corpus[sentence_id])
+    
+    return clustered_sentences
 
-    for i, cluster in enumerate(clustered_sentences):
-        #result_jsn['children'].append({'name':'', 'children': clustering(cluster)})
-        print("Cluster ", i+1)
-        print(cluster)
-        print("")
+def insert_clusters(all_corpus):
+    if(len(all_corpus)<=2):
+        return {'name':'', 'children': [ {"name": "BetweennessCentrality", "size": 3534},{"name": "LinkDistance", "size": 5731} ]}
+    else:
+        two_clusters = clustering(all_corpus)
+        insert_clusters(two_clusters[0])
         
-
-clustering(corpus_embeddings)
+#result_jsn['children'].append({'name':'', 'children': clustering(cluster)})
+result_jsn = insert_clusters(corpus_embeddings)
 print(result_jsn)
+#for i, cluster in enumerate(clustered_sentences):
+#    print("Cluster ", i+1)
+#    print(cluster)
+#    print("")
+
+

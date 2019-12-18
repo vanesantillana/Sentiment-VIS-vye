@@ -1,5 +1,5 @@
 // Get JSON data https://bl.ocks.org/wmleler/a734fb2bb3319a2cb386
-d3.json('source/data-flare.json', function(error, treeData) {
+d3.json('source/bert.json', function(error, treeData) {
 
   var DURATION = 700; // d3 animation duration
   var STAGGERN = 4; // delay for each node

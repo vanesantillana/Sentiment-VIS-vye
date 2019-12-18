@@ -36,7 +36,7 @@ def similitud():
         #print(corr_f)
 
 similitud()
-
+    
 
 with open('source/vis-100.json') as f:
     vis = json.load(f)
